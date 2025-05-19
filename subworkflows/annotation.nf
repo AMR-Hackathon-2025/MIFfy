@@ -55,7 +55,7 @@ workflow annotation {
 
     main:
         cluster_reads(fasta_ch)     
-        bakta(cluster_unqiue_reads.out)
+        bakta(cluster_reads.out)
 
 
 
