@@ -2,9 +2,7 @@
 
 from collections import defaultdict
 from Bio import SeqIO
-import sys
 import argparse
-import re
 import os
 
 def valid_directory(path):
