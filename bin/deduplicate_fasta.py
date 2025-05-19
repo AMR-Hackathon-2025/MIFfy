@@ -33,14 +33,14 @@ def commandline():
     return args
 
 def deduplicate_fasta(input_fasta, output_dir):
-    output_fasta = os.path.join(output_dir, os.path.basename(input_fasta).split('.')[0], str('.deduplicated.fasta'))
-    summary_table = os.path.join(output_dir,  os.path.basename(input_fasta).split('.')[0], str('.duplication_counts.fasta'))
+    output_fasta = os.path.join(output_dir, str(str(os.path.basename(input_fasta).split('.')[0])+str('.deduplicated.fasta')))
+    summary_table = os.path.join(output_dir,  str(str(os.path.basename(input_fasta).split('.')[0])+str('.duplication_counts.tsv')))
 
     seq_counts = defaultdict(list)  # sequence -> list of headers
 
     # Read and group by sequence
     for record in SeqIO.parse(input_fasta, "fasta"):
-        sequence = str(record.seq).upper()
+        sequence = record.seq
         seq_counts[sequence].append(record.id)
 
     # Write de-duplicated FASTA
