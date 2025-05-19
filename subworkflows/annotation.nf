@@ -55,8 +55,8 @@ workflow annotation {
         fastq_ch // fasta
 
     main:
-        cluster_unqiue_reads(fastq_ch)     
-        convert_to_fasta(cluster_unqiue_reads.out)
+        cluster_reads(fastq_ch)     
+        // convert_to_fasta(cluster_unqiue_reads.out)
 
 
 
