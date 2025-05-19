@@ -22,33 +22,35 @@ process cluster_reads{
 
 }
 
-process convert_to_fasta{
-    // exiting process
+// process convert_to_fasta{
+//     // exiting process
 
 
-}
+// }
 
-process amr_detection {
-    // https://nf-co.re/modules/abricate_run/
-    // nf-core/funcscan
-}
+// process amr_detection {
+//     // https://nf-co.re/modules/abricate_run/
+//     // nf-core/funcscan
+// }
 
-process virulance_factors {
-    // 
+// process virulance_factors {
+//     // 
 
-}
+// }
 
-process bakta{
-
-
-}
+// process bakta{
 
 
-process oasis{
+// }
+
+
+// process oasis{
 
 
 
-}
+// }
+
+
 workflow annotation {
 
     take:
