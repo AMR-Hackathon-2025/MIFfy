@@ -6,6 +6,20 @@
 // OASIS
 
 process cluster_reads{
+    label 'process_low'
+    publishDir "${params.outdir}/annotation/", mode: 'copy'
+
+    input:
+        tuple val(sample_id), file(fasta)
+
+    output:
+        tuple file(), file()
+
+    script:
+    """
+    deduplicate_fasta.py -i ${fasta} -o ${outdir}
+    """
+
     // https://nf-co.re/modules/cdhit_cdhitest/
     // mash
     // md5
