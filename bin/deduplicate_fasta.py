@@ -27,6 +27,7 @@ def commandline():
     parser.add_argument(
         '--output_dir',
         '-o',
+        default = os.getcwd(),
         help='Output directory for de-duplicated sequence.',
         type=valid_directory,
         required=True,
