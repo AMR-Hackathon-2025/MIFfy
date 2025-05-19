@@ -15,7 +15,7 @@ process cluster_reads{
         tuple val(sample_id), file(fasta)
 
     output:
-        tuple file("*.deduplicated.fasta"), file("*.duplication_counts.fasta")
+        tuple file("*.deduplicated.fasta"), file("*.duplication_counts.tsv")
 
     script:
     """
