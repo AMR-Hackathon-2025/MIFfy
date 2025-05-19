@@ -1,3 +1,4 @@
+include { annotation } from './subworkflows/annotation'
 
 
 

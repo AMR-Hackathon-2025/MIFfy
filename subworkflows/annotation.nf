@@ -13,19 +13,12 @@ process cluster_reads{
         tuple val(sample_id), file(fasta)
 
     output:
-        tuple file(), file()
+        tuple file("*.deduplicated.fasta"), file("*.duplication_counts.fasta")
 
     script:
     """
-    deduplicate_fasta.py -i ${fasta} -o ${outdir}
+    deduplicate_fasta.py -i ${fasta} 
     """
-
-    // https://nf-co.re/modules/cdhit_cdhitest/
-    // mash
-    // md5
-    // vclust
-    //input:
-        // 
 
 }
 
