@@ -1,0 +1,396 @@
+# Annotated with Bakta
+# Software: v1.11.0
+# Database: v6.0, light
+# DOI: 10.1099/mgen.0.000685
+# URL: github.com/oschwengers/bakta
+#Sequence Id	Type	Start	Stop	Strand	Locus Tag	Gene	Product	DbXrefs
+SRR20203642.4	ncRNA-region	142	212	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.4	cds	173	283	-	MIEECM_0001		hypothetical protein	
+SRR20203642.5	cds	24	236	+	MIEECM_0002		hypothetical protein	
+SRR20203642.6	cds	169	396	+	MIEECM_0003		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.6	ncRNA-region	329	403	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.12	cds	71	283	-	MIEECM_0004		hypothetical protein	
+SRR20203642.13	cds	13	132	-	MIEECM_0005		hypothetical protein	
+SRR20203642.14	cds	931	1155	-	MIEECM_0006		hypothetical protein	
+SRR20203642.17	ncRNA-region	171	245	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.17	cds	178	336	-	MIEECM_0007		hypothetical protein	
+SRR20203642.19	cds	73	174	-	MIEECM_0008		hypothetical protein	
+SRR20203642.20	cds	185	340	+	MIEECM_0009		hypothetical protein	
+SRR20203642.20	ncRNA-region	273	347	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.21	cds	114	260	-	MIEECM_0010		hypothetical protein	
+SRR20203642.23	cds	108	203	-	MIEECM_0011		hypothetical protein	
+SRR20203642.23	cds	234	341	+	MIEECM_0012		hypothetical protein	
+SRR20203642.23	ncRNA-region	292	365	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.24	cds	71	190	-	MIEECM_0013		hypothetical protein	
+SRR20203642.25	cds	106	315	-	MIEECM_0014		hypothetical protein	
+SRR20203642.25	cds	1325	1495	-	MIEECM_0015		hypothetical protein	
+SRR20203642.26	cds	2	157	+	MIEECM_0016		hypothetical protein	
+SRR20203642.27	cds	27	464	+	MIEECM_0017		hypothetical protein	
+SRR20203642.28	cds	595	861	-	MIEECM_0018		Aminoglycoside resistance protein	SO:0001217, UniRef:UniRef50_A0A0J2G208
+SRR20203642.28	ncRNA-region	780	854	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.30	cds	109	336	-	MIEECM_0019		hypothetical protein	
+SRR20203642.31	ncRNA-region	116	190	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.32	cds	105	311	-	MIEECM_0020		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.33	cds	33	197	+	MIEECM_0021		hypothetical protein	
+SRR20203642.33	ncRNA-region	148	221	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.34	cds	28	159	+	MIEECM_0022		hypothetical protein	
+SRR20203642.34	ncRNA-region	109	183	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.35	ncRNA-region	97	169	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.35	cds	108	329	-	MIEECM_0023		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.36	cds	4	153	+	MIEECM_0024		hypothetical protein	
+SRR20203642.37	cds	4	168	+	MIEECM_0025		hypothetical protein	
+SRR20203642.41	cds	21	197	+	MIEECM_0026		hypothetical protein	
+SRR20203642.41	cds	151	285	+	MIEECM_0027		hypothetical protein	
+SRR20203642.41	ncRNA-region	158	230	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.42	cds	156	311	+	MIEECM_0028		hypothetical protein	
+SRR20203642.42	ncRNA-region	244	318	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.43	cds	33	209	-	MIEECM_0029		hypothetical protein	
+SRR20203642.43	cds	218	337	+	MIEECM_0030		hypothetical protein	
+SRR20203642.43	cds	276	365	+	MIEECM_0031		hypothetical protein	
+SRR20203642.43	ncRNA-region	298	372	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.44	cds	218	385	+	MIEECM_0032		hypothetical protein	
+SRR20203642.44	ncRNA-region	318	392	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.46	cds	2	133	+	MIEECM_0033		hypothetical protein	
+SRR20203642.48	cds	120	332	-	MIEECM_0034		hypothetical protein	
+SRR20203642.49	cds	931	1206	-	MIEECM_0035		hypothetical protein	
+SRR20203642.52	cds	111	224	-	MIEECM_0036		hypothetical protein	
+SRR20203642.53	cds	110	733	-	MIEECM_0037		hypothetical protein	PFAM:PF00033.24, PFAM:PF13631.11
+SRR20203642.53	cds	970	1218	-	MIEECM_0038		hypothetical protein	PFAM:PF00355.32
+SRR20203642.54	cds	34	165	-	MIEECM_0039		hypothetical protein	
+SRR20203642.56	cds	178	315	+	MIEECM_0040		hypothetical protein	
+SRR20203642.57	cds	13	198	-	MIEECM_0041		hypothetical protein	
+SRR20203642.58	cds	28	189	-	MIEECM_0042		hypothetical protein	
+SRR20203642.62	cds	155	256	-	MIEECM_0043		hypothetical protein	
+SRR20203642.63	cds	45	245	+	MIEECM_0044		hypothetical protein	
+SRR20203642.63	ncRNA-region	178	252	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.64	cds	13	216	-	MIEECM_0045		hypothetical protein	
+SRR20203642.67	cds	77	328	-	MIEECM_0046		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.67	ncRNA-region	101	168	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.68	cds	36	224	-	MIEECM_0047		hypothetical protein	
+SRR20203642.72	cds	77	412	-	MIEECM_0048		hypothetical protein	
+SRR20203642.72	cds	391	585	-	MIEECM_0049		hypothetical protein	
+SRR20203642.73	cds	29	430	+	MIEECM_0050		hypothetical protein	
+SRR20203642.73	ncRNA-region	488	560	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.73	cds	505	642	-	MIEECM_0051		hypothetical protein	
+SRR20203642.75	cds	31	234	+	MIEECM_0052		hypothetical protein	
+SRR20203642.75	ncRNA-region	167	241	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.76	cds	28	342	-	MIEECM_0053		hypothetical protein	
+SRR20203642.77	cds	108	233	-	MIEECM_0054		hypothetical protein	
+SRR20203642.77	cds	242	355	+	MIEECM_0055		hypothetical protein	
+SRR20203642.82	ncRNA-region	127	202	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.82	cds	163	285	-	MIEECM_0056		hypothetical protein	
+SRR20203642.83	ncRNA-region	114	187	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.87	ncRNA-region	140	212	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.89	cds	2	148	+	MIEECM_0057		hypothetical protein	
+SRR20203642.89	cds	96	269	+	MIEECM_0058		hypothetical protein	
+SRR20203642.90	cds	53	181	-	MIEECM_0059		hypothetical protein	
+SRR20203642.97	cds	176	337	+	MIEECM_0060		hypothetical protein	
+SRR20203642.97	ncRNA-region	267	344	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.98	cds	73	372	-	MIEECM_0061		hypothetical protein	
+SRR20203642.98	ncRNA-region	139	212	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.101	ncRNA-region	200	273	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.101	cds	234	392	-	MIEECM_0062		hypothetical protein	
+SRR20203642.102	ncRNA-region	173	247	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.102	cds	180	305	-	MIEECM_0063		hypothetical protein	
+SRR20203642.103	cds	66	206	-	MIEECM_0064		hypothetical protein	
+SRR20203642.104	cds	109	198	-	MIEECM_0065		hypothetical protein	
+SRR20203642.104	cds	207	332	+	MIEECM_0066		hypothetical protein	
+SRR20203642.104	ncRNA-region	286	354	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.105	cds	242	412	-	MIEECM_0067		hypothetical protein	
+SRR20203642.105	ncRNA-region	1033	1101	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.105	cds	1052	1183	-	MIEECM_0068		hypothetical protein	
+SRR20203642.107	cds	1	174	+	MIEECM_0069		hypothetical protein	
+SRR20203642.107	cds	202	438	+	MIEECM_0070		hypothetical protein	
+SRR20203642.107	ncRNA-region	209	284	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.107	cds	618	944	-	MIEECM_0071		hypothetical protein	
+SRR20203642.110	ncRNA-region	127	198	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.115	cds	3	428	+	MIEECM_0072		hypothetical protein	
+SRR20203642.115	ncRNA-region	327	399	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.115	cds	360	509	-	MIEECM_0073		hypothetical protein	
+SRR20203642.117	ncRNA-region	142	216	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.117	cds	149	307	-	MIEECM_0074		hypothetical protein	
+SRR20203642.118	cds	74	490	+	MIEECM_0075		hypothetical protein	
+SRR20203642.119	cds	106	201	-	MIEECM_0076		hypothetical protein	
+SRR20203642.119	cds	210	326	+	MIEECM_0077		hypothetical protein	
+SRR20203642.120	cds	82	297	+	MIEECM_0078		hypothetical protein	
+SRR20203642.120	ncRNA-region	230	304	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.125	cds	69	230	-	MIEECM_0079		hypothetical protein	
+SRR20203642.125	cds	239	382	+	MIEECM_0080		hypothetical protein	
+SRR20203642.125	ncRNA-region	315	389	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.126	ncRNA-region	154	228	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.126	cds	161	310	-	MIEECM_0081		hypothetical protein	
+SRR20203642.128	ncRNA-region	97	171	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.128	cds	104	250	-	MIEECM_0082		hypothetical protein	
+SRR20203642.128	cds	259	378	+	MIEECM_0083		hypothetical protein	
+SRR20203642.135	cds	19	219	-	MIEECM_0084		hypothetical protein	
+SRR20203642.135	cds	228	350	+	MIEECM_0085		hypothetical protein	
+SRR20203642.136	cds	1	222	+	MIEECM_0086		hypothetical protein	
+SRR20203642.137	cds	302	436	-	MIEECM_0087		hypothetical protein	
+SRR20203642.138	cds	26	199	+	MIEECM_0088		hypothetical protein	
+SRR20203642.141	ncRNA-region	113	183	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.141	cds	144	278	-	MIEECM_0089		hypothetical protein	
+SRR20203642.143	cds	271	588	-	MIEECM_0090		hypothetical protein	
+SRR20203642.144	cds	135	368	-	MIEECM_0091		hypothetical protein	
+SRR20203642.149	ncRNA-region	141	216	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.149	cds	176	376	-	MIEECM_0092		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.151	cds	70	225	-	MIEECM_0093		hypothetical protein	
+SRR20203642.151	cds	234	374	+	MIEECM_0094		hypothetical protein	
+SRR20203642.153	cds	35	148	+	MIEECM_0095		hypothetical protein	
+SRR20203642.154	ncRNA-region	142	217	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.156	cds	17	199	-	MIEECM_0096		hypothetical protein	
+SRR20203642.157	cds	2	232	+	MIEECM_0097		hypothetical protein	
+SRR20203642.157	cds	594	869	-	MIEECM_0098		hypothetical protein	
+SRR20203642.157	ncRNA-region	713	787	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.158	ncRNA-region	110	182	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.158	cds	133	273	-	MIEECM_0099		hypothetical protein	
+SRR20203642.161	cds	13	222	-	MIEECM_0100		hypothetical protein	
+SRR20203642.161	ncRNA-region	306	379	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.162	cds	80	331	-	MIEECM_0101		hypothetical protein	
+SRR20203642.163	cds	10	210	-	MIEECM_0102		hypothetical protein	
+SRR20203642.166	ncRNA-region	124	197	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.167	cds	106	210	-	MIEECM_0103		hypothetical protein	
+SRR20203642.168	cds	610	738	-	MIEECM_0104		hypothetical protein	
+SRR20203642.168	cds	747	872	+	MIEECM_0105		hypothetical protein	
+SRR20203642.170	cds	65	211	-	MIEECM_0106		hypothetical protein	
+SRR20203642.174	cds	241	384	+	MIEECM_0107		hypothetical protein	
+SRR20203642.175	ncRNA-region	208	282	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.175	cds	215	361	-	MIEECM_0108		hypothetical protein	
+SRR20203642.179	cds	426	911	-	MIEECM_0109		hypothetical protein	PFAM:PF14279.12
+SRR20203642.179	ncRNA-region	759	829	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.180	cds	577	834	-	MIEECM_0110		hypothetical protein	
+SRR20203642.180	cds	779	922	-	MIEECM_0111		hypothetical protein	
+SRR20203642.181	cds	19	180	-	MIEECM_0112		hypothetical protein	
+SRR20203642.183	cds	4	207	+	MIEECM_0113		hypothetical protein	
+SRR20203642.184	cds	104	199	-	MIEECM_0114		hypothetical protein	
+SRR20203642.184	cds	208	306	+	MIEECM_0115		hypothetical protein	
+SRR20203642.188	cds	65	631	-	MIEECM_0116		hypothetical protein	
+SRR20203642.190	cds	73	285	-	MIEECM_0117		hypothetical protein	
+SRR20203642.191	cds	101	499	+	MIEECM_0118		hypothetical protein	
+SRR20203642.194	cds	2	157	+	MIEECM_0119		hypothetical protein	
+SRR20203642.195	cds	1	234	+	MIEECM_0120		hypothetical protein	
+SRR20203642.199	cds	260	484	-	MIEECM_0121		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.202	cds	2	196	+	MIEECM_0122		hypothetical protein	
+SRR20203642.205	cds	199	399	-	MIEECM_0123		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.207	cds	155	283	-	MIEECM_0124		hypothetical protein	
+SRR20203642.208	cds	79	381	+	MIEECM_0125		hypothetical protein	
+SRR20203642.208	ncRNA-region	188	262	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.208	cds	414	545	+	MIEECM_0126		hypothetical protein	
+SRR20203642.208	cds	893	1114	+	MIEECM_0127		hypothetical protein	
+SRR20203642.209	cds	158	247	+	MIEECM_0128		hypothetical protein	
+SRR20203642.209	ncRNA-region	208	282	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.211	cds	32	226	-	MIEECM_0129		hypothetical protein	
+SRR20203642.211	cds	235	357	+	MIEECM_0130		hypothetical protein	
+SRR20203642.212	cds	4	231	+	MIEECM_0131		hypothetical protein	
+SRR20203642.212	ncRNA-region	182	255	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.213	cds	1624	1722	-	MIEECM_0132		hypothetical protein	
+SRR20203642.213	ncRNA-region	1638	1715	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.213	cds	1676	1798	-	MIEECM_0133		hypothetical protein	
+SRR20203642.214	cds	2	196	+	MIEECM_0134		hypothetical protein	
+SRR20203642.215	cds	30	236	+	MIEECM_0135		hypothetical protein	
+SRR20203642.215	ncRNA-region	169	243	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.217	cds	87	197	-	MIEECM_0136		hypothetical protein	
+SRR20203642.217	cds	206	352	+	MIEECM_0137		hypothetical protein	
+SRR20203642.217	ncRNA-region	285	359	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.219	cds	54	227	-	MIEECM_0138		hypothetical protein	
+SRR20203642.220	cds	109	225	-	MIEECM_0139		hypothetical protein	
+SRR20203642.220	cds	234	362	+	MIEECM_0140		hypothetical protein	
+SRR20203642.221	cds	540	1145	-	MIEECM_0141		hypothetical protein	
+SRR20203642.222	cds	587	724	-	MIEECM_0142		hypothetical protein	
+SRR20203642.226	ncRNA-region	166	240	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.226	cds	173	322	-	MIEECM_0143		hypothetical protein	
+SRR20203642.227	ncRNA-region	169	240	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.227	cds	201	320	-	MIEECM_0144		hypothetical protein	
+SRR20203642.233	cds	150	269	+	MIEECM_0145		hypothetical protein	
+SRR20203642.237	cds	2	154	+	MIEECM_0146		hypothetical protein	
+SRR20203642.237	cds	112	282	-	MIEECM_0147		hypothetical protein	
+SRR20203642.239	cds	75	476	+	MIEECM_0148		hypothetical protein	
+SRR20203642.241	cds	41	172	-	MIEECM_0149		hypothetical protein	
+SRR20203642.243	cds	740	985	-	MIEECM_0150		hypothetical protein	
+SRR20203642.243	cds	1001	1126	-	MIEECM_0151		hypothetical protein	
+SRR20203642.246	ncRNA-region	210	283	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.246	cds	225	362	-	MIEECM_0152		hypothetical protein	
+SRR20203642.248	cds	159	290	-	MIEECM_0153		hypothetical protein	
+SRR20203642.250	ncRNA-region	110	184	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.254	cds	54	206	-	MIEECM_0154		hypothetical protein	
+SRR20203642.255	cds	20	208	-	MIEECM_0155		hypothetical protein	
+SRR20203642.255	cds	217	339	+	MIEECM_0156		hypothetical protein	
+SRR20203642.255	cds	278	367	+	MIEECM_0157		hypothetical protein	
+SRR20203642.255	ncRNA-region	300	376	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.256	cds	192	359	-	MIEECM_0158		hypothetical protein	
+SRR20203642.259	cds	17	196	-	MIEECM_0159		hypothetical protein	
+SRR20203642.260	cds	32	130	-	MIEECM_0160		hypothetical protein	
+SRR20203642.263	cds	135	437	+	MIEECM_0161		hypothetical protein	
+SRR20203642.264	cds	150	299	+	MIEECM_0162		hypothetical protein	
+SRR20203642.264	ncRNA-region	233	306	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.266	cds	100	357	+	MIEECM_0163		hypothetical protein	
+SRR20203642.266	ncRNA-region	290	364	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.270	cds	162	275	+	MIEECM_0164		hypothetical protein	
+SRR20203642.273	cds	1	159	+	MIEECM_0165		hypothetical protein	
+SRR20203642.274	cds	71	274	-	MIEECM_0166		hypothetical protein	
+SRR20203642.279	cds	38	181	+	MIEECM_0167		hypothetical protein	
+SRR20203642.279	ncRNA-region	142	215	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.280	cds	184	279	-	MIEECM_0168		hypothetical protein	
+SRR20203642.281	cds	112	261	-	MIEECM_0169		hypothetical protein	
+SRR20203642.282	ncRNA-region	183	257	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.282	cds	190	348	-	MIEECM_0170		hypothetical protein	
+SRR20203642.283	ncRNA-region	124	199	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.283	cds	160	276	-	MIEECM_0171		hypothetical protein	
+SRR20203642.285	cds	9	215	-	MIEECM_0172		hypothetical protein	
+SRR20203642.285	cds	247	372	+	MIEECM_0173		hypothetical protein	
+SRR20203642.285	ncRNA-region	305	379	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.288	cds	245	379	-	MIEECM_0174		hypothetical protein	
+SRR20203642.289	cds	293	553	+	MIEECM_0175		hypothetical protein	
+SRR20203642.289	cds	625	882	+	MIEECM_0176		hypothetical protein	
+SRR20203642.289	cds	848	1114	-	MIEECM_0177		hypothetical protein	
+SRR20203642.290	cds	20	253	-	MIEECM_0178		hypothetical protein	
+SRR20203642.291	cds	108	539	-	MIEECM_0179		hypothetical protein	
+SRR20203642.291	cds	524	619	-	MIEECM_0180		hypothetical protein	
+SRR20203642.291	cds	562	696	-	MIEECM_0181		hypothetical protein	
+SRR20203642.295	cds	2	124	+	MIEECM_0182		hypothetical protein	
+SRR20203642.296	cds	65	208	-	MIEECM_0183		hypothetical protein	
+SRR20203642.296	ncRNA-region	80	150	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.298	cds	13	252	-	MIEECM_0184		hypothetical protein	
+SRR20203642.298	ncRNA-region	99	172	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.299	cds	34	210	-	MIEECM_0185		hypothetical protein	
+SRR20203642.299	cds	219	338	+	MIEECM_0186		hypothetical protein	
+SRR20203642.301	cds	2	277	+	MIEECM_0187		hypothetical protein	
+SRR20203642.303	cds	38	229	-	MIEECM_0188		hypothetical protein	
+SRR20203642.305	cds	240	809	-	MIEECM_0189		hypothetical protein	
+SRR20203642.307	cds	154	249	-	MIEECM_0190		hypothetical protein	
+SRR20203642.309	cds	16	546	+	MIEECM_0191		hypothetical protein	
+SRR20203642.309	cds	381	842	-	MIEECM_0192		hypothetical protein	
+SRR20203642.309	ncRNA-region	689	766	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.311	cds	20	343	+	MIEECM_0193		hypothetical protein	
+SRR20203642.311	cds	560	769	+	MIEECM_0194		hypothetical protein	
+SRR20203642.313	cds	336	482	-	MIEECM_0195		hypothetical protein	
+SRR20203642.313	ncRNA-region	390	466	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.314	cds	2	169	+	MIEECM_0196		hypothetical protein	
+SRR20203642.314	cds	978	1304	+	MIEECM_0197		hypothetical protein	PFAM:PF00905.27
+SRR20203642.314	cds	1651	1935	+	MIEECM_0198		hypothetical protein	
+SRR20203642.315	cds	2	274	+	MIEECM_0199		hypothetical protein	
+SRR20203642.316	cds	4	177	+	MIEECM_0200		hypothetical protein	
+SRR20203642.318	ncRNA-region	120	193	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.319	cds	26	343	+	MIEECM_0201		hypothetical protein	
+SRR20203642.320	cds	154	303	+	MIEECM_0202		hypothetical protein	
+SRR20203642.320	ncRNA-region	236	310	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.321	cds	71	262	-	MIEECM_0203		hypothetical protein	
+SRR20203642.322	cds	2	196	+	MIEECM_0204		hypothetical protein	
+SRR20203642.322	ncRNA-region	145	220	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.325	cds	112	207	-	MIEECM_0205		hypothetical protein	
+SRR20203642.326	cds	180	413	-	MIEECM_0206		hypothetical protein	
+SRR20203642.328	ncRNA-region	105	178	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.329	cds	102	407	-	MIEECM_0207		hypothetical protein	
+SRR20203642.329	cds	811	942	-	MIEECM_0208		hypothetical protein	
+SRR20203642.330	cds	433	582	-	MIEECM_0209		hypothetical protein	
+SRR20203642.334	cds	54	236	-	MIEECM_0210		hypothetical protein	
+SRR20203642.334	cds	1250	1468	-	MIEECM_0211		hypothetical protein	
+SRR20203642.334	ncRNA-region	1366	1435	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.335	cds	208	345	+	MIEECM_0212		hypothetical protein	
+SRR20203642.336	cds	74	496	-	MIEECM_0213		hypothetical protein	
+SRR20203642.337	cds	131	250	-	MIEECM_0214		hypothetical protein	
+SRR20203642.338	cds	3	272	+	MIEECM_0215		hypothetical protein	
+SRR20203642.338	ncRNA-region	237	308	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.338	cds	247	363	-	MIEECM_0216		hypothetical protein	
+SRR20203642.339	cds	33	227	-	MIEECM_0217		hypothetical protein	
+SRR20203642.341	cds	184	477	-	MIEECM_0218		DUF1010 domain-containing protein	SO:0001217, UniRef:UniRef50_A7Y2V6
+SRR20203642.341	cds	586	861	+	MIEECM_0219		hypothetical protein	
+SRR20203642.341	ncRNA-region	1854	1919	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.344	ncRNA-region	192	266	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.344	cds	227	346	-	MIEECM_0220		hypothetical protein	
+SRR20203642.349	cds	138	326	+	MIEECM_0221		hypothetical protein	
+SRR20203642.349	ncRNA-region	259	333	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.350	cds	192	332	+	MIEECM_0222		hypothetical protein	
+SRR20203642.351	cds	141	251	+	MIEECM_0223		hypothetical protein	
+SRR20203642.352	cds	118	225	-	MIEECM_0224		hypothetical protein	
+SRR20203642.352	cds	255	374	+	MIEECM_0225		hypothetical protein	
+SRR20203642.353	cds	250	381	-	MIEECM_0226		hypothetical protein	
+SRR20203642.354	cds	2	166	+	MIEECM_0227		hypothetical protein	
+SRR20203642.355	cds	209	370	-	MIEECM_0228		hypothetical protein	
+SRR20203642.356	ncRNA-region	284	362	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.356	cds	313	522	-	MIEECM_0229		hypothetical protein	
+SRR20203642.357	cds	15	182	-	MIEECM_0230		hypothetical protein	
+SRR20203642.358	cds	19	267	-	MIEECM_0231		hypothetical protein	
+SRR20203642.358	ncRNA-region	102	176	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.360	cds	37	201	-	MIEECM_0232		hypothetical protein	
+SRR20203642.361	cds	28	270	+	MIEECM_0233		hypothetical protein	
+SRR20203642.363	cds	24	260	+	MIEECM_0234		hypothetical protein	
+SRR20203642.363	ncRNA-region	221	296	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.364	cds	153	272	-	MIEECM_0235		hypothetical protein	
+SRR20203642.366	cds	794	1042	-	MIEECM_0236		hypothetical protein	
+SRR20203642.367	cds	224	343	-	MIEECM_0237		hypothetical protein	
+SRR20203642.368	cds	2	196	+	MIEECM_0238		hypothetical protein	
+SRR20203642.369	cds	72	335	-	MIEECM_0239		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203642.369	ncRNA-region	100	172	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.371	cds	636	1121	+	MIEECM_0240		hypothetical protein	
+SRR20203642.372	cds	109	228	-	MIEECM_0241		hypothetical protein	
+SRR20203642.375	ncRNA-region	213	287	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.375	cds	220	366	-	MIEECM_0242		hypothetical protein	
+SRR20203642.377	cds	32	211	+	MIEECM_0243		hypothetical protein	
+SRR20203642.380	cds	121	327	-	MIEECM_0244		hypothetical protein	
+SRR20203642.380	ncRNA-region	161	235	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.381	ncRNA-region	127	202	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.381	cds	163	291	-	MIEECM_0245		hypothetical protein	
+SRR20203642.382	cds	16	216	+	MIEECM_0246		hypothetical protein	
+SRR20203642.382	cds	829	1089	-	MIEECM_0247		hypothetical protein	
+SRR20203642.382	cds	1267	1431	-	MIEECM_0248		hypothetical protein	
+SRR20203642.384	ncRNA-region	269	339	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.385	cds	111	215	-	MIEECM_0249		hypothetical protein	
+SRR20203642.385	cds	224	415	+	MIEECM_0250		hypothetical protein	
+SRR20203642.385	ncRNA-region	303	376	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.387	cds	178	366	-	MIEECM_0251		hypothetical protein	
+SRR20203642.387	cds	473	589	-	MIEECM_0252		hypothetical protein	
+SRR20203642.389	cds	284	667	+	MIEECM_0253		hypothetical protein	
+SRR20203642.389	cds	664	786	+	MIEECM_0254		hypothetical protein	
+SRR20203642.391	ncRNA-region	134	206	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.394	cds	295	687	-	MIEECM_0255		hypothetical protein	
+SRR20203642.394	cds	1702	1791	-	MIEECM_0256		hypothetical protein	
+SRR20203642.395	cds	57	200	-	MIEECM_0257		hypothetical protein	
+SRR20203642.395	cds	208	684	+	MIEECM_0258		hypothetical protein	
+SRR20203642.395	cds	927	1103	+	MIEECM_0259		hypothetical protein	PFAM:PF01909.29
+SRR20203642.395	cds	1100	1204	+	MIEECM_0260		hypothetical protein	
+SRR20203642.395	cds	1201	1431	+	MIEECM_0261		hypothetical protein	
+SRR20203642.395	cds	1465	1710	+	MIEECM_0262		Streptomycin 3''-O-adenylyltransferase	SO:0001217, UniRef:UniRef50_A0A2R4PDU9
+SRR20203642.397	cds	1797	1946	-	MIEECM_0263		hypothetical protein	PFAM:PF00905.27
+SRR20203642.399	cds	297	593	+	MIEECM_0264		hypothetical protein	
+SRR20203642.401	ncRNA-region	196	260	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.403	cds	61	186	-	MIEECM_0265		hypothetical protein	
+SRR20203642.406	cds	196	462	-	MIEECM_0266		hypothetical protein	
+SRR20203642.410	cds	31	219	-	MIEECM_0267		hypothetical protein	
+SRR20203642.411	cds	102	269	+	MIEECM_0268		hypothetical protein	
+SRR20203642.412	ncRNA-region	202	276	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.414	cds	24	221	+	MIEECM_0269		hypothetical protein	
+SRR20203642.418	cds	33	191	-	MIEECM_0270		hypothetical protein	
+SRR20203642.419	cds	4	288	+	MIEECM_0271		hypothetical protein	
+SRR20203642.419	ncRNA-region	238	313	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.420	cds	158	739	-	MIEECM_0272		hypothetical protein	
+SRR20203642.420	cds	739	939	-	MIEECM_0273		hypothetical protein	
+SRR20203642.421	cds	100	420	-	MIEECM_0274		hypothetical protein	
+SRR20203642.421	cds	417	692	-	MIEECM_0275		hypothetical protein	
+SRR20203642.422	cds	37	243	+	MIEECM_0276		hypothetical protein	
+SRR20203642.422	cds	387	596	-	MIEECM_0277		hypothetical protein	
+SRR20203642.429	cds	329	643	-	MIEECM_0278		hypothetical protein	PFAM:PF13427.11
+SRR20203642.429	cds	630	1184	-	MIEECM_0279		hypothetical protein	
+SRR20203642.429	ncRNA-region	950	1024	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.431	cds	1	684	+	MIEECM_0280		hypothetical protein	
+SRR20203642.432	cds	4	201	+	MIEECM_0281		hypothetical protein	
+SRR20203642.436	cds	37	177	-	MIEECM_0282		hypothetical protein	
+SRR20203642.439	cds	29	433	+	MIEECM_0283		hypothetical protein	
+SRR20203642.441	cds	66	299	-	MIEECM_0284		hypothetical protein	
+SRR20203642.442	cds	237	383	-	MIEECM_0285		hypothetical protein	
+SRR20203642.443	cds	82	234	-	MIEECM_0286		hypothetical protein	
+SRR20203642.444	ncRNA-region	175	246	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.444	cds	207	326	-	MIEECM_0287		hypothetical protein	
+SRR20203642.445	cds	595	831	-	MIEECM_0288		hypothetical protein	
+SRR20203642.446	cds	34	246	+	MIEECM_0289		hypothetical protein	
+SRR20203642.446	cds	246	524	+	MIEECM_0290		hypothetical protein	
+SRR20203642.446	cds	769	1050	+	MIEECM_0291		hypothetical protein	
+SRR20203642.446	cds	1103	1456	+	MIEECM_0292		hypothetical protein	
+SRR20203642.447	cds	103	429	-	MIEECM_0293		hypothetical protein	
+SRR20203642.447	cds	443	580	-	MIEECM_0294		hypothetical protein	
+SRR20203642.448	cds	78	248	+	MIEECM_0295		hypothetical protein	
+SRR20203642.449	ncRNA-region	172	246	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.451	cds	271	417	+	MIEECM_0296		hypothetical protein	
+SRR20203642.451	ncRNA-region	476	548	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.452	cds	35	205	+	MIEECM_0297		hypothetical protein	
+SRR20203642.455	ncRNA-region	179	254	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203642.457	cds	46	570	+	MIEECM_0298		hypothetical protein	

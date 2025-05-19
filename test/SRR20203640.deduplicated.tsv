@@ -1,0 +1,414 @@
+# Annotated with Bakta
+# Software: v1.11.0
+# Database: v6.0, light
+# DOI: 10.1099/mgen.0.000685
+# URL: github.com/oschwengers/bakta
+#Sequence Id	Type	Start	Stop	Strand	Locus Tag	Gene	Product	DbXrefs
+SRR20203640.1	cds	173	265	-	BMCNHB_0001		hypothetical protein	
+SRR20203640.1	cds	266	469	+	BMCNHB_0002		hypothetical protein	
+SRR20203640.2	ncRNA-region	169	243	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.2	cds	176	358	-	BMCNHB_0003		hypothetical protein	
+SRR20203640.3	cds	124	309	-	BMCNHB_0004		hypothetical protein	
+SRR20203640.4	cds	2	124	+	BMCNHB_0005		hypothetical protein	
+SRR20203640.4	cds	127	294	-	BMCNHB_0006		hypothetical protein	
+SRR20203640.6	cds	37	177	+	BMCNHB_0007		hypothetical protein	
+SRR20203640.7	cds	40	147	-	BMCNHB_0008		hypothetical protein	
+SRR20203640.8	cds	110	346	-	BMCNHB_0009		hypothetical protein	
+SRR20203640.9	cds	58	345	+	BMCNHB_0010		hypothetical protein	
+SRR20203640.10	cds	46	156	-	BMCNHB_0011		hypothetical protein	
+SRR20203640.11	cds	33	287	-	BMCNHB_0012		hypothetical protein	
+SRR20203640.11	ncRNA-region	158	229	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.11	cds	236	364	-	BMCNHB_0013		hypothetical protein	
+SRR20203640.12	cds	107	208	-	BMCNHB_0014		hypothetical protein	
+SRR20203640.13	ncRNA-region	169	244	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.14	cds	159	413	-	BMCNHB_0015		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203640.15	cds	106	264	+	BMCNHB_0016		hypothetical protein	
+SRR20203640.15	ncRNA-region	197	271	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.16	cds	2	133	+	BMCNHB_0017		hypothetical protein	
+SRR20203640.16	cds	93	182	+	BMCNHB_0018		hypothetical protein	
+SRR20203640.18	cds	36	551	-	BMCNHB_0019		hypothetical protein	
+SRR20203640.18	cds	511	630	-	BMCNHB_0020		hypothetical protein	
+SRR20203640.19	cds	56	166	+	BMCNHB_0021		hypothetical protein	
+SRR20203640.20	cds	21	179	-	BMCNHB_0022		hypothetical protein	
+SRR20203640.20	cds	210	365	+	BMCNHB_0023		hypothetical protein	
+SRR20203640.20	cds	304	393	+	BMCNHB_0024		hypothetical protein	
+SRR20203640.20	ncRNA-region	326	400	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.22	cds	3	161	+	BMCNHB_0025		hypothetical protein	
+SRR20203640.22	cds	103	249	+	BMCNHB_0026		hypothetical protein	
+SRR20203640.22	ncRNA-region	122	189	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.23	cds	13	183	-	BMCNHB_0027		hypothetical protein	
+SRR20203640.24	ncRNA-region	101	175	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.24	cds	173	307	-	BMCNHB_0028		hypothetical protein	
+SRR20203640.25	ncRNA-region	151	225	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.25	cds	158	247	-	BMCNHB_0029		hypothetical protein	
+SRR20203640.25	cds	186	338	-	BMCNHB_0030		hypothetical protein	
+SRR20203640.26	cds	43	228	-	BMCNHB_0031		hypothetical protein	
+SRR20203640.26	ncRNA-region	152	218	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.26	cds	179	334	-	BMCNHB_0032		hypothetical protein	
+SRR20203640.27	cds	26	166	+	BMCNHB_0033		hypothetical protein	
+SRR20203640.28	ncRNA-region	179	253	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.28	cds	186	386	-	BMCNHB_0034		hypothetical protein	
+SRR20203640.29	cds	73	216	-	BMCNHB_0035		hypothetical protein	
+SRR20203640.30	cds	34	192	+	BMCNHB_0036		hypothetical protein	
+SRR20203640.30	ncRNA-region	93	163	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.31	cds	259	360	-	BMCNHB_0037		hypothetical protein	
+SRR20203640.32	cds	2	124	+	BMCNHB_0038		hypothetical protein	
+SRR20203640.32	cds	87	254	+	BMCNHB_0039		hypothetical protein	
+SRR20203640.32	ncRNA-region	202	278	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.34	cds	145	387	-	BMCNHB_0040		hypothetical protein	
+SRR20203640.34	ncRNA-region	204	272	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.35	ncRNA-region	175	249	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.37	cds	2	127	+	BMCNHB_0041		hypothetical protein	
+SRR20203640.38	cds	50	268	+	BMCNHB_0042		hypothetical protein	
+SRR20203640.39	cds	23	151	+	BMCNHB_0043		hypothetical protein	
+SRR20203640.40	cds	40	189	-	BMCNHB_0044		hypothetical protein	
+SRR20203640.40	cds	162	266	-	BMCNHB_0045		hypothetical protein	
+SRR20203640.40	cds	208	300	-	BMCNHB_0046		hypothetical protein	
+SRR20203640.41	cds	32	187	-	BMCNHB_0047		hypothetical protein	
+SRR20203640.42	cds	240	389	-	BMCNHB_0048		hypothetical protein	
+SRR20203640.43	cds	98	199	+	BMCNHB_0049		hypothetical protein	
+SRR20203640.44	cds	106	222	-	BMCNHB_0050		hypothetical protein	
+SRR20203640.45	ncRNA-region	136	210	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.45	cds	143	343	-	BMCNHB_0051		hypothetical protein	
+SRR20203640.46	cds	175	312	+	BMCNHB_0052		hypothetical protein	
+SRR20203640.46	ncRNA-region	245	318	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.47	cds	51	191	+	BMCNHB_0053		hypothetical protein	
+SRR20203640.47	ncRNA-region	112	187	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.50	cds	52	159	+	BMCNHB_0054		hypothetical protein	
+SRR20203640.50	ncRNA-region	109	183	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.51	cds	2	163	+	BMCNHB_0055		hypothetical protein	
+SRR20203640.51	cds	157	387	+	BMCNHB_0056		hypothetical protein	
+SRR20203640.51	ncRNA-region	272	345	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.52	cds	178	327	+	BMCNHB_0057		hypothetical protein	
+SRR20203640.52	ncRNA-region	290	362	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.53	cds	86	277	-	BMCNHB_0058		hypothetical protein	
+SRR20203640.55	cds	29	181	+	BMCNHB_0059		hypothetical protein	
+SRR20203640.56	cds	156	332	+	BMCNHB_0060		hypothetical protein	
+SRR20203640.57	cds	77	244	-	BMCNHB_0061		hypothetical protein	
+SRR20203640.57	ncRNA-region	103	177	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.58	cds	22	111	-	BMCNHB_0062		hypothetical protein	
+SRR20203640.60	cds	102	239	-	BMCNHB_0063		hypothetical protein	
+SRR20203640.61	cds	150	335	+	BMCNHB_0064		hypothetical protein	
+SRR20203640.62	cds	186	368	+	BMCNHB_0065		hypothetical protein	
+SRR20203640.62	ncRNA-region	301	375	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.63	ncRNA-region	115	190	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.64	ncRNA-region	189	263	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.64	cds	196	285	-	BMCNHB_0066		hypothetical protein	
+SRR20203640.64	cds	224	331	-	BMCNHB_0067		hypothetical protein	
+SRR20203640.65	cds	76	264	-	BMCNHB_0068		hypothetical protein	
+SRR20203640.65	cds	288	407	-	BMCNHB_0069		hypothetical protein	
+SRR20203640.66	cds	34	165	+	BMCNHB_0070		hypothetical protein	
+SRR20203640.67	cds	75	287	-	BMCNHB_0071		hypothetical protein	
+SRR20203640.67	ncRNA-region	322	397	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.68	cds	20	211	-	BMCNHB_0072		hypothetical protein	
+SRR20203640.69	cds	41	193	+	BMCNHB_0073		hypothetical protein	
+SRR20203640.70	cds	38	130	+	BMCNHB_0074		hypothetical protein	
+SRR20203640.71	cds	50	190	+	BMCNHB_0075		hypothetical protein	
+SRR20203640.71	cds	165	494	+	BMCNHB_0076		hypothetical protein	
+SRR20203640.71	cds	631	891	+	BMCNHB_0077		hypothetical protein	
+SRR20203640.72	cds	58	246	+	BMCNHB_0078		hypothetical protein	
+SRR20203640.73	cds	70	219	-	BMCNHB_0079		hypothetical protein	
+SRR20203640.74	cds	67	324	-	BMCNHB_0080		hypothetical protein	
+SRR20203640.75	cds	24	185	+	BMCNHB_0081		hypothetical protein	
+SRR20203640.77	cds	5	133	+	BMCNHB_0082		hypothetical protein	
+SRR20203640.77	cds	99	206	+	BMCNHB_0083		hypothetical protein	
+SRR20203640.78	ncRNA-region	196	269	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.78	cds	230	385	-	BMCNHB_0084		hypothetical protein	
+SRR20203640.79	cds	74	250	-	BMCNHB_0085		hypothetical protein	
+SRR20203640.80	ncRNA-region	129	203	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.80	cds	136	330	-	BMCNHB_0086		hypothetical protein	
+SRR20203640.81	cds	34	162	+	BMCNHB_0087		hypothetical protein	
+SRR20203640.81	ncRNA-region	121	197	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.82	ncRNA-region	150	227	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.82	cds	175	339	-	BMCNHB_0088		hypothetical protein	
+SRR20203640.84	cds	13	273	-	BMCNHB_0089		hypothetical protein	
+SRR20203640.84	ncRNA-region	97	170	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.85	cds	29	175	-	BMCNHB_0090		hypothetical protein	
+SRR20203640.86	cds	6	119	+	BMCNHB_0091		hypothetical protein	
+SRR20203640.86	cds	113	271	+	BMCNHB_0092		hypothetical protein	
+SRR20203640.87	cds	75	272	-	BMCNHB_0093		hypothetical protein	
+SRR20203640.88	ncRNA-region	153	227	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.89	cds	30	140	-	BMCNHB_0094		hypothetical protein	
+SRR20203640.89	ncRNA-region	175	250	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.91	cds	526	672	-	BMCNHB_0095		hypothetical protein	
+SRR20203640.91	cds	892	1185	-	BMCNHB_0096		hypothetical protein	
+SRR20203640.91	ncRNA-region	999	1070	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.92	cds	31	246	-	BMCNHB_0097		hypothetical protein	
+SRR20203640.92	ncRNA-region	182	258	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.92	cds	189	389	-	BMCNHB_0098		hypothetical protein	
+SRR20203640.93	ncRNA-region	109	183	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.93	cds	116	301	-	BMCNHB_0099		hypothetical protein	
+SRR20203640.94	cds	177	302	-	BMCNHB_0100		hypothetical protein	
+SRR20203640.96	ncRNA-region	98	167	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.96	cds	109	225	-	BMCNHB_0101		hypothetical protein	
+SRR20203640.96	cds	174	299	-	BMCNHB_0102		hypothetical protein	
+SRR20203640.97	cds	17	130	-	BMCNHB_0103		hypothetical protein	
+SRR20203640.98	cds	48	329	-	BMCNHB_0104		hypothetical protein	
+SRR20203640.99	cds	50	292	+	BMCNHB_0105		hypothetical protein	
+SRR20203640.100	cds	29	202	+	BMCNHB_0106		hypothetical protein	
+SRR20203640.100	cds	165	350	-	BMCNHB_0107		hypothetical protein	
+SRR20203640.103	cds	101	226	-	BMCNHB_0108		hypothetical protein	
+SRR20203640.103	cds	189	368	-	BMCNHB_0109		hypothetical protein	
+SRR20203640.104	cds	108	203	-	BMCNHB_0110		hypothetical protein	
+SRR20203640.107	cds	121	216	-	BMCNHB_0111		hypothetical protein	
+SRR20203640.107	cds	165	260	-	BMCNHB_0112		hypothetical protein	
+SRR20203640.108	cds	1	138	+	BMCNHB_0113		hypothetical protein	
+SRR20203640.108	ncRNA-region	99	173	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.109	cds	29	322	-	BMCNHB_0114		hypothetical protein	
+SRR20203640.109	ncRNA-region	91	165	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.110	cds	173	364	+	BMCNHB_0115		hypothetical protein	
+SRR20203640.110	ncRNA-region	298	371	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.111	cds	78	236	-	BMCNHB_0116		hypothetical protein	
+SRR20203640.112	ncRNA-region	204	280	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.112	cds	219	413	-	BMCNHB_0117		hypothetical protein	
+SRR20203640.114	cds	99	233	+	BMCNHB_0118		hypothetical protein	
+SRR20203640.115	cds	81	272	+	BMCNHB_0119		hypothetical protein	
+SRR20203640.115	ncRNA-region	205	279	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.116	cds	97	243	+	BMCNHB_0120		hypothetical protein	
+SRR20203640.116	cds	183	314	+	BMCNHB_0121		hypothetical protein	
+SRR20203640.118	cds	244	375	-	BMCNHB_0122		hypothetical protein	
+SRR20203640.120	cds	152	322	-	BMCNHB_0123		hypothetical protein	
+SRR20203640.121	cds	13	249	-	BMCNHB_0124		hypothetical protein	
+SRR20203640.122	cds	28	159	+	BMCNHB_0125		hypothetical protein	
+SRR20203640.122	cds	135	287	+	BMCNHB_0126		hypothetical protein	
+SRR20203640.123	cds	111	236	-	BMCNHB_0127		hypothetical protein	
+SRR20203640.123	ncRNA-region	175	248	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.123	cds	199	348	-	BMCNHB_0128		hypothetical protein	
+SRR20203640.124	cds	19	168	-	BMCNHB_0129		hypothetical protein	
+SRR20203640.124	cds	231	380	+	BMCNHB_0130		hypothetical protein	
+SRR20203640.124	ncRNA-region	313	387	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.125	cds	185	382	+	BMCNHB_0131		hypothetical protein	
+SRR20203640.125	ncRNA-region	315	389	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.127	cds	252	398	-	BMCNHB_0132		hypothetical protein	
+SRR20203640.128	cds	26	133	+	BMCNHB_0133		hypothetical protein	
+SRR20203640.129	cds	202	444	+	BMCNHB_0134		hypothetical protein	
+SRR20203640.129	ncRNA-region	317	389	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.130	cds	33	254	-	BMCNHB_0135		hypothetical protein	
+SRR20203640.132	cds	170	325	+	BMCNHB_0136		hypothetical protein	
+SRR20203640.132	cds	264	353	+	BMCNHB_0137		hypothetical protein	
+SRR20203640.132	ncRNA-region	286	360	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.134	cds	122	388	-	BMCNHB_0138		hypothetical protein	
+SRR20203640.134	ncRNA-region	177	253	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.136	cds	114	320	-	BMCNHB_0139		hypothetical protein	
+SRR20203640.136	ncRNA-region	190	262	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.138	cds	30	188	-	BMCNHB_0140		hypothetical protein	
+SRR20203640.140	cds	33	194	-	BMCNHB_0141		hypothetical protein	
+SRR20203640.142	cds	160	357	-	BMCNHB_0142		hypothetical protein	
+SRR20203640.143	cds	33	143	+	BMCNHB_0143		hypothetical protein	
+SRR20203640.144	cds	148	369	-	BMCNHB_0144		hypothetical protein	
+SRR20203640.144	cds	366	797	-	BMCNHB_0145		hypothetical protein	
+SRR20203640.144	cds	810	1028	-	BMCNHB_0146		hypothetical protein	
+SRR20203640.144	ncRNA-region	931	1006	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.144	cds	967	1164	-	BMCNHB_0147		hypothetical protein	
+SRR20203640.145	cds	49	216	+	BMCNHB_0148		hypothetical protein	
+SRR20203640.147	cds	86	214	+	BMCNHB_0149		hypothetical protein	
+SRR20203640.148	cds	38	130	-	BMCNHB_0150		hypothetical protein	
+SRR20203640.149	cds	26	217	+	BMCNHB_0151		hypothetical protein	
+SRR20203640.150	cds	25	174	+	BMCNHB_0152		hypothetical protein	
+SRR20203640.150	ncRNA-region	94	170	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.151	cds	65	241	-	BMCNHB_0153		hypothetical protein	
+SRR20203640.152	cds	20	265	-	BMCNHB_0154		hypothetical protein	
+SRR20203640.153	cds	13	117	-	BMCNHB_0155		hypothetical protein	
+SRR20203640.153	cds	126	395	-	BMCNHB_0156		hypothetical protein	
+SRR20203640.153	cds	800	925	-	BMCNHB_0157		hypothetical protein	
+SRR20203640.154	ncRNA-region	114	188	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.155	cds	9	134	-	BMCNHB_0158		hypothetical protein	
+SRR20203640.157	cds	55	219	+	BMCNHB_0159		hypothetical protein	
+SRR20203640.158	cds	110	232	-	BMCNHB_0160		hypothetical protein	
+SRR20203640.159	cds	41	223	+	BMCNHB_0161		hypothetical protein	
+SRR20203640.162	cds	99	215	+	BMCNHB_0162		hypothetical protein	
+SRR20203640.163	cds	21	272	+	BMCNHB_0163		hypothetical protein	
+SRR20203640.164	cds	206	364	-	BMCNHB_0164		hypothetical protein	
+SRR20203640.167	cds	34	306	-	BMCNHB_0165		hypothetical protein	
+SRR20203640.168	cds	221	400	-	BMCNHB_0166		hypothetical protein	
+SRR20203640.169	cds	151	303	+	BMCNHB_0167		hypothetical protein	
+SRR20203640.172	cds	4	180	+	BMCNHB_0168		hypothetical protein	
+SRR20203640.172	cds	326	496	-	BMCNHB_0169		hypothetical protein	
+SRR20203640.173	cds	188	355	+	BMCNHB_0170		hypothetical protein	
+SRR20203640.173	ncRNA-region	288	362	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.174	cds	118	243	-	BMCNHB_0171		hypothetical protein	
+SRR20203640.176	cds	122	301	-	BMCNHB_0172		hypothetical protein	
+SRR20203640.176	cds	668	853	-	BMCNHB_0173		hypothetical protein	
+SRR20203640.176	ncRNA-region	833	905	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.176	cds	850	1011	-	BMCNHB_0174		hypothetical protein	
+SRR20203640.178	cds	52	225	-	BMCNHB_0175		hypothetical protein	
+SRR20203640.179	ncRNA-region	212	288	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.179	cds	224	397	-	BMCNHB_0176		hypothetical protein	
+SRR20203640.180	ncRNA-region	97	168	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.180	cds	110	283	-	BMCNHB_0177		hypothetical protein	
+SRR20203640.182	cds	114	260	-	BMCNHB_0178		hypothetical protein	
+SRR20203640.182	cds	308	454	-	BMCNHB_0179		hypothetical protein	
+SRR20203640.182	cds	707	862	-	BMCNHB_0180		hypothetical protein	
+SRR20203640.183	ncRNA-region	212	286	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.183	cds	219	308	-	BMCNHB_0181		hypothetical protein	
+SRR20203640.184	ncRNA-region	111	184	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.184	cds	118	315	-	BMCNHB_0182		hypothetical protein	
+SRR20203640.185	cds	45	152	+	BMCNHB_0183		hypothetical protein	
+SRR20203640.185	cds	106	237	+	BMCNHB_0184		hypothetical protein	
+SRR20203640.186	cds	142	294	-	BMCNHB_0185		hypothetical protein	
+SRR20203640.187	cds	43	132	+	BMCNHB_0186		hypothetical protein	
+SRR20203640.189	cds	80	169	+	BMCNHB_0187		hypothetical protein	
+SRR20203640.189	ncRNA-region	118	193	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.190	ncRNA-region	101	175	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.191	cds	172	345	-	BMCNHB_0188		hypothetical protein	
+SRR20203640.192	cds	2	136	+	BMCNHB_0189		hypothetical protein	
+SRR20203640.193	cds	162	329	+	BMCNHB_0190		hypothetical protein	
+SRR20203640.194	cds	26	115	+	BMCNHB_0191		hypothetical protein	
+SRR20203640.197	cds	45	182	+	BMCNHB_0192		hypothetical protein	
+SRR20203640.197	ncRNA-region	115	189	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.199	cds	51	179	+	BMCNHB_0193		hypothetical protein	
+SRR20203640.199	ncRNA-region	217	291	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.199	cds	224	382	-	BMCNHB_0194		hypothetical protein	
+SRR20203640.200	cds	46	189	+	BMCNHB_0195		hypothetical protein	
+SRR20203640.200	ncRNA-region	140	213	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.202	cds	23	175	+	BMCNHB_0196		hypothetical protein	
+SRR20203640.203	cds	106	282	-	BMCNHB_0197		hypothetical protein	
+SRR20203640.203	ncRNA-region	134	209	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.204	cds	55	249	+	BMCNHB_0198		hypothetical protein	
+SRR20203640.205	cds	20	115	-	BMCNHB_0199		hypothetical protein	
+SRR20203640.205	cds	112	372	-	BMCNHB_0200		hypothetical protein	
+SRR20203640.208	cds	94	282	+	BMCNHB_0201		hypothetical protein	
+SRR20203640.208	ncRNA-region	215	289	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.209	cds	38	220	-	BMCNHB_0202		hypothetical protein	
+SRR20203640.210	cds	57	236	+	BMCNHB_0203		hypothetical protein	
+SRR20203640.210	ncRNA-region	169	245	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.212	cds	22	201	-	BMCNHB_0204		hypothetical protein	
+SRR20203640.212	ncRNA-region	179	254	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.212	cds	202	354	-	BMCNHB_0205		hypothetical protein	
+SRR20203640.213	cds	106	324	-	BMCNHB_0206		hypothetical protein	
+SRR20203640.214	cds	30	122	+	BMCNHB_0207		hypothetical protein	
+SRR20203640.214	ncRNA-region	99	168	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.214	cds	119	274	-	BMCNHB_0208		hypothetical protein	
+SRR20203640.215	ncRNA-region	159	233	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.215	cds	166	333	-	BMCNHB_0209		hypothetical protein	
+SRR20203640.216	cds	13	222	-	BMCNHB_0210		hypothetical protein	
+SRR20203640.217	cds	1	117	+	BMCNHB_0211		hypothetical protein	
+SRR20203640.217	cds	111	260	-	BMCNHB_0212		hypothetical protein	
+SRR20203640.217	ncRNA-region	196	272	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.217	cds	220	375	-	BMCNHB_0213		hypothetical protein	
+SRR20203640.220	cds	24	191	-	BMCNHB_0214		hypothetical protein	
+SRR20203640.221	cds	13	108	-	BMCNHB_0215		hypothetical protein	
+SRR20203640.221	cds	105	269	-	BMCNHB_0216		hypothetical protein	
+SRR20203640.222	cds	52	183	+	BMCNHB_0217		hypothetical protein	
+SRR20203640.222	cds	138	257	+	BMCNHB_0218		hypothetical protein	
+SRR20203640.222	ncRNA-region	190	263	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.223	cds	2	235	+	BMCNHB_0219		hypothetical protein	
+SRR20203640.223	ncRNA-region	213	288	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.225	cds	141	275	+	BMCNHB_0220		hypothetical protein	
+SRR20203640.225	cds	214	303	+	BMCNHB_0221		hypothetical protein	
+SRR20203640.226	cds	67	237	-	BMCNHB_0222		hypothetical protein	
+SRR20203640.228	cds	50	172	+	BMCNHB_0223		hypothetical protein	
+SRR20203640.229	cds	127	273	-	BMCNHB_0224		hypothetical protein	
+SRR20203640.231	cds	29	133	-	BMCNHB_0225		hypothetical protein	
+SRR20203640.232	cds	226	408	-	BMCNHB_0226		hypothetical protein	
+SRR20203640.235	cds	32	349	+	BMCNHB_0227		hypothetical protein	
+SRR20203640.235	ncRNA-region	282	356	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.236	cds	78	182	+	BMCNHB_0228		hypothetical protein	
+SRR20203640.236	ncRNA-region	115	189	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.237	cds	37	201	+	BMCNHB_0229		hypothetical protein	
+SRR20203640.238	cds	85	309	-	BMCNHB_0230		hypothetical protein	
+SRR20203640.240	cds	55	183	+	BMCNHB_0231		hypothetical protein	
+SRR20203640.240	cds	135	239	+	BMCNHB_0232		hypothetical protein	
+SRR20203640.241	ncRNA-region	138	212	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.241	cds	145	327	-	BMCNHB_0233		hypothetical protein	
+SRR20203640.242	cds	115	246	+	BMCNHB_0234		hypothetical protein	
+SRR20203640.244	cds	153	308	+	BMCNHB_0235		hypothetical protein	
+SRR20203640.244	ncRNA-region	269	337	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.245	cds	216	383	-	BMCNHB_0236		hypothetical protein	
+SRR20203640.247	cds	16	174	+	BMCNHB_0237		hypothetical protein	
+SRR20203640.247	cds	113	202	+	BMCNHB_0238		hypothetical protein	
+SRR20203640.247	ncRNA-region	135	209	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.248	cds	86	226	+	BMCNHB_0239		hypothetical protein	
+SRR20203640.248	ncRNA-region	159	233	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.251	cds	12	281	-	BMCNHB_0240		hypothetical protein	
+SRR20203640.253	cds	35	202	-	BMCNHB_0241		hypothetical protein	
+SRR20203640.256	cds	120	290	-	BMCNHB_0242		hypothetical protein	
+SRR20203640.261	cds	30	131	+	BMCNHB_0243		hypothetical protein	
+SRR20203640.261	cds	116	250	+	BMCNHB_0244		hypothetical protein	
+SRR20203640.262	cds	30	167	-	BMCNHB_0245		hypothetical protein	
+SRR20203640.264	cds	1	135	+	BMCNHB_0246		hypothetical protein	
+SRR20203640.265	cds	17	205	-	BMCNHB_0247		hypothetical protein	
+SRR20203640.266	cds	75	185	+	BMCNHB_0248		hypothetical protein	
+SRR20203640.266	cds	145	237	+	BMCNHB_0249		hypothetical protein	
+SRR20203640.267	ncRNA-region	172	246	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.267	cds	179	361	-	BMCNHB_0250		hypothetical protein	
+SRR20203640.269	cds	1	195	+	BMCNHB_0251		hypothetical protein	
+SRR20203640.270	cds	12	224	-	BMCNHB_0252		hypothetical protein	
+SRR20203640.270	cds	243	386	+	BMCNHB_0253		hypothetical protein	
+SRR20203640.271	cds	183	272	+	BMCNHB_0254		hypothetical protein	
+SRR20203640.272	cds	97	228	+	BMCNHB_0255		hypothetical protein	
+SRR20203640.273	cds	109	249	-	BMCNHB_0256		hypothetical protein	
+SRR20203640.274	cds	27	122	+	BMCNHB_0257		hypothetical protein	
+SRR20203640.274	cds	116	280	+	BMCNHB_0258		hypothetical protein	
+SRR20203640.277	cds	96	452	+	BMCNHB_0259		hypothetical protein	PFAM:PF01909.29
+SRR20203640.277	ncRNA-region	136	217	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.277	cds	404	634	+	BMCNHB_0260		hypothetical protein	
+SRR20203640.281	cds	80	175	+	BMCNHB_0261		hypothetical protein	
+SRR20203640.282	cds	52	174	+	BMCNHB_0262		hypothetical protein	
+SRR20203640.282	ncRNA-region	100	170	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.282	cds	119	286	-	BMCNHB_0263		hypothetical protein	
+SRR20203640.284	cds	30	161	+	BMCNHB_0264		hypothetical protein	
+SRR20203640.285	cds	36	263	+	BMCNHB_0265		hypothetical protein	
+SRR20203640.285	ncRNA-region	112	184	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.286	cds	184	312	-	BMCNHB_0266		hypothetical protein	
+SRR20203640.287	cds	75	179	+	BMCNHB_0267		hypothetical protein	
+SRR20203640.287	ncRNA-region	211	284	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.287	cds	235	387	-	BMCNHB_0268		hypothetical protein	
+SRR20203640.290	cds	2	139	+	BMCNHB_0269		hypothetical protein	
+SRR20203640.291	cds	41	154	-	BMCNHB_0270		hypothetical protein	
+SRR20203640.292	ncRNA-region	200	274	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.292	cds	207	389	-	BMCNHB_0271		hypothetical protein	
+SRR20203640.293	cds	112	207	-	BMCNHB_0272		hypothetical protein	
+SRR20203640.294	cds	112	258	-	BMCNHB_0273		hypothetical protein	
+SRR20203640.295	cds	36	176	-	BMCNHB_0274		hypothetical protein	
+SRR20203640.295	cds	255	362	+	BMCNHB_0275		hypothetical protein	
+SRR20203640.295	cds	301	438	+	BMCNHB_0276		hypothetical protein	
+SRR20203640.295	ncRNA-region	323	391	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.296	cds	111	209	-	BMCNHB_0277		hypothetical protein	
+SRR20203640.297	cds	145	318	+	BMCNHB_0278		hypothetical protein	
+SRR20203640.298	cds	128	265	-	BMCNHB_0279		hypothetical protein	
+SRR20203640.299	ncRNA-region	145	219	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.299	cds	169	354	-	BMCNHB_0280		hypothetical protein	
+SRR20203640.301	cds	33	215	-	BMCNHB_0281		hypothetical protein	
+SRR20203640.302	cds	1	105	+	BMCNHB_0282		hypothetical protein	
+SRR20203640.302	ncRNA-region	80	153	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.302	cds	102	269	-	BMCNHB_0283		hypothetical protein	
+SRR20203640.303	cds	35	163	-	BMCNHB_0284		hypothetical protein	
+SRR20203640.304	ncRNA-region	112	189	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.307	cds	39	287	+	BMCNHB_0285		hypothetical protein	
+SRR20203640.308	cds	40	276	+	BMCNHB_0286		hypothetical protein	
+SRR20203640.308	ncRNA-region	209	283	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.310	cds	118	240	-	BMCNHB_0287		hypothetical protein	
+SRR20203640.311	cds	40	270	-	BMCNHB_0288		hypothetical protein	
+SRR20203640.312	cds	39	146	+	BMCNHB_0289		hypothetical protein	
+SRR20203640.313	cds	150	323	-	BMCNHB_0290		hypothetical protein	
+SRR20203640.314	cds	69	290	-	BMCNHB_0291		hypothetical protein	
+SRR20203640.315	cds	207	338	+	BMCNHB_0292		hypothetical protein	
+SRR20203640.315	cds	301	483	+	BMCNHB_0293		hypothetical protein	
+SRR20203640.316	cds	174	350	+	BMCNHB_0294		hypothetical protein	
+SRR20203640.316	cds	494	760	-	BMCNHB_0295		hypothetical protein	
+SRR20203640.317	cds	68	235	-	BMCNHB_0296		hypothetical protein	
+SRR20203640.318	cds	184	324	-	BMCNHB_0297		hypothetical protein	
+SRR20203640.320	cds	211	372	+	BMCNHB_0298		hypothetical protein	
+SRR20203640.321	cds	46	210	-	BMCNHB_0299		hypothetical protein	
+SRR20203640.322	cds	206	364	-	BMCNHB_0300		hypothetical protein	
+SRR20203640.322	ncRNA-region	207	273	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.323	cds	2	313	-	BMCNHB_0301		hypothetical protein	
+SRR20203640.323	ncRNA-region	126	200	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.324	cds	2	127	+	BMCNHB_0302		hypothetical protein	
+SRR20203640.324	cds	111	332	+	BMCNHB_0303		hypothetical protein	
+SRR20203640.325	cds	79	312	-	BMCNHB_0304		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203640.326	cds	75	191	-	BMCNHB_0305		hypothetical protein	
+SRR20203640.326	cds	202	378	-	BMCNHB_0306		hypothetical protein	
+SRR20203640.327	ncRNA-region	177	250	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.327	cds	201	320	-	BMCNHB_0307		hypothetical protein	
+SRR20203640.328	cds	133	315	+	BMCNHB_0308		hypothetical protein	
+SRR20203640.328	ncRNA-region	201	272	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203640.330	cds	189	413	+	BMCNHB_0309		hypothetical protein	
+SRR20203640.332	cds	15	131	-	BMCNHB_0310		hypothetical protein	
+SRR20203640.333	cds	125	238	-	BMCNHB_0311		hypothetical protein	
+SRR20203640.334	cds	27	266	+	BMCNHB_0312		hypothetical protein	
+SRR20203640.335	cds	155	334	+	BMCNHB_0313		hypothetical protein	
+SRR20203640.336	cds	1	168	+	BMCNHB_0314		hypothetical protein	
+SRR20203640.337	cds	73	180	-	BMCNHB_0315		hypothetical protein	
+SRR20203640.338	cds	2	127	+	BMCNHB_0316		hypothetical protein	

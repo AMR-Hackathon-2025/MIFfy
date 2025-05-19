@@ -1,0 +1,379 @@
+# Annotated with Bakta
+# Software: v1.11.0
+# Database: v6.0, light
+# DOI: 10.1099/mgen.0.000685
+# URL: github.com/oschwengers/bakta
+#Sequence Id	Type	Start	Stop	Strand	Locus Tag	Gene	Product	DbXrefs
+SRR20203639.1	ncRNA-region	266	340	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.4	cds	33	242	-	IJECGM_0001		hypothetical protein	
+SRR20203639.5	cds	156	353	+	IJECGM_0002		hypothetical protein	
+SRR20203639.5	ncRNA-region	286	360	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.6	cds	66	155	-	IJECGM_0003		hypothetical protein	
+SRR20203639.8	cds	205	327	-	IJECGM_0004		hypothetical protein	
+SRR20203639.9	cds	83	196	-	IJECGM_0005		hypothetical protein	
+SRR20203639.11	ncRNA-region	174	246	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.12	cds	73	258	-	IJECGM_0006		hypothetical protein	
+SRR20203639.12	ncRNA-region	173	246	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.12	cds	255	377	-	IJECGM_0007		hypothetical protein	
+SRR20203639.13	ncRNA-region	212	286	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.17	ncRNA-region	269	341	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.19	ncRNA-region	262	338	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.22	ncRNA-region	224	298	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.23	ncRNA-region	318	395	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.24	ncRNA-region	182	256	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.28	ncRNA-region	115	189	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.30	cds	137	262	-	IJECGM_0008		hypothetical protein	
+SRR20203639.33	ncRNA-region	126	200	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.34	cds	116	268	-	IJECGM_0009		hypothetical protein	
+SRR20203639.36	cds	66	239	-	IJECGM_0010		hypothetical protein	
+SRR20203639.38	ncRNA-region	166	240	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.41	ncRNA-region	166	240	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.43	cds	18	239	-	IJECGM_0011		hypothetical protein	
+SRR20203639.44	ncRNA-region	188	262	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.44	cds	269	397	-	IJECGM_0012		hypothetical protein	
+SRR20203639.45	cds	249	374	-	IJECGM_0013		hypothetical protein	
+SRR20203639.46	ncRNA-region	159	233	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.48	cds	114	317	+	IJECGM_0014		hypothetical protein	
+SRR20203639.48	ncRNA-region	250	324	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.49	ncRNA-region	147	224	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.53	ncRNA-region	287	361	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.55	cds	13	195	-	IJECGM_0015		hypothetical protein	
+SRR20203639.58	cds	30	263	-	IJECGM_0016		hypothetical protein	
+SRR20203639.60	ncRNA-region	178	252	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.60	cds	185	382	-	IJECGM_0017		hypothetical protein	
+SRR20203639.62	ncRNA-region	196	270	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.65	cds	69	182	-	IJECGM_0018		hypothetical protein	
+SRR20203639.67	ncRNA-region	181	253	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.67	cds	216	386	-	IJECGM_0019		hypothetical protein	
+SRR20203639.71	cds	57	263	-	IJECGM_0020		hypothetical protein	
+SRR20203639.73	ncRNA-region	304	378	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.74	cds	122	295	-	IJECGM_0021		hypothetical protein	
+SRR20203639.76	cds	158	277	+	IJECGM_0022		hypothetical protein	
+SRR20203639.76	cds	274	399	+	IJECGM_0023		hypothetical protein	
+SRR20203639.76	ncRNA-region	284	357	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.78	ncRNA-region	111	185	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.80	ncRNA-region	189	263	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.83	cds	38	193	-	IJECGM_0024		hypothetical protein	
+SRR20203639.84	cds	110	247	-	IJECGM_0025		hypothetical protein	
+SRR20203639.85	ncRNA-region	121	195	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.86	ncRNA-region	119	193	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.87	cds	198	323	-	IJECGM_0026		hypothetical protein	
+SRR20203639.88	cds	20	247	-	IJECGM_0027		hypothetical protein	
+SRR20203639.90	cds	122	247	-	IJECGM_0028		hypothetical protein	
+SRR20203639.93	cds	32	250	-	IJECGM_0029		hypothetical protein	
+SRR20203639.93	ncRNA-region	147	219	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.94	cds	12	215	-	IJECGM_0030		hypothetical protein	
+SRR20203639.98	ncRNA-region	108	179	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.102	ncRNA-region	118	191	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.102	cds	151	321	-	IJECGM_0031		hypothetical protein	
+SRR20203639.104	ncRNA-region	172	240	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.105	cds	66	200	-	IJECGM_0032		hypothetical protein	
+SRR20203639.108	cds	188	298	+	IJECGM_0033		hypothetical protein	
+SRR20203639.108	ncRNA-region	321	396	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.109	ncRNA-region	300	374	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.112	ncRNA-region	170	245	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.113	cds	185	307	+	IJECGM_0034		hypothetical protein	
+SRR20203639.113	ncRNA-region	314	388	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.114	ncRNA-region	194	268	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.114	cds	201	401	-	IJECGM_0035		hypothetical protein	
+SRR20203639.116	cds	70	249	-	IJECGM_0036		hypothetical protein	
+SRR20203639.117	ncRNA-region	168	242	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.117	cds	203	373	-	IJECGM_0037		hypothetical protein	
+SRR20203639.118	ncRNA-region	103	173	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.120	cds	155	280	-	IJECGM_0038		hypothetical protein	
+SRR20203639.120	ncRNA-region	196	270	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.122	ncRNA-region	176	251	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.122	cds	236	382	-	IJECGM_0039		hypothetical protein	
+SRR20203639.126	cds	282	410	-	IJECGM_0040		hypothetical protein	
+SRR20203639.127	cds	35	163	-	IJECGM_0041		hypothetical protein	
+SRR20203639.135	cds	110	217	-	IJECGM_0042		hypothetical protein	
+SRR20203639.138	ncRNA-region	192	265	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.140	ncRNA-region	143	217	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.145	ncRNA-region	200	275	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.146	cds	124	381	+	IJECGM_0043		hypothetical protein	
+SRR20203639.146	ncRNA-region	257	324	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.152	cds	19	222	-	IJECGM_0044		hypothetical protein	
+SRR20203639.155	ncRNA-region	279	354	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.156	ncRNA-region	196	270	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.156	cds	203	403	-	IJECGM_0045		hypothetical protein	
+SRR20203639.159	ncRNA-region	219	292	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.160	ncRNA-region	188	262	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.160	cds	195	395	-	IJECGM_0046		hypothetical protein	
+SRR20203639.162	ncRNA-region	108	174	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.163	cds	159	356	+	IJECGM_0047		hypothetical protein	
+SRR20203639.163	ncRNA-region	289	363	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.164	cds	153	347	+	IJECGM_0048		hypothetical protein	
+SRR20203639.165	ncRNA-region	166	241	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.166	cds	139	264	+	IJECGM_0049		hypothetical protein	
+SRR20203639.169	cds	109	219	-	IJECGM_0050		hypothetical protein	
+SRR20203639.171	cds	30	323	-	IJECGM_0051		hypothetical protein	
+SRR20203639.171	ncRNA-region	118	190	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.172	cds	115	240	-	IJECGM_0052		hypothetical protein	
+SRR20203639.173	cds	35	130	-	IJECGM_0053		hypothetical protein	
+SRR20203639.179	cds	37	168	-	IJECGM_0054		hypothetical protein	
+SRR20203639.181	cds	277	405	-	IJECGM_0055		hypothetical protein	
+SRR20203639.183	ncRNA-region	165	239	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.184	cds	214	339	-	IJECGM_0056		hypothetical protein	
+SRR20203639.185	ncRNA-region	174	248	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.188	ncRNA-region	134	208	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.192	ncRNA-region	195	269	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.195	cds	107	205	-	IJECGM_0057		hypothetical protein	
+SRR20203639.196	ncRNA-region	137	213	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.198	ncRNA-region	197	271	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.199	cds	31	144	-	IJECGM_0058		hypothetical protein	
+SRR20203639.200	ncRNA-region	243	317	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.201	ncRNA-region	142	214	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.203	cds	221	403	-	IJECGM_0059		hypothetical protein	
+SRR20203639.204	cds	74	271	-	IJECGM_0060		hypothetical protein	
+SRR20203639.206	cds	174	416	+	IJECGM_0061		hypothetical protein	
+SRR20203639.206	ncRNA-region	307	379	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.209	ncRNA-region	188	258	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.210	cds	197	400	-	IJECGM_0062		hypothetical protein	
+SRR20203639.212	ncRNA-region	167	243	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.212	cds	203	376	-	IJECGM_0063		hypothetical protein	
+SRR20203639.213	ncRNA-region	196	268	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.213	cds	229	399	-	IJECGM_0064		hypothetical protein	
+SRR20203639.217	ncRNA-region	105	176	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.219	cds	3	236	+	IJECGM_0065		hypothetical protein	
+SRR20203639.220	cds	138	308	-	IJECGM_0066		hypothetical protein	
+SRR20203639.221	ncRNA-region	156	231	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.221	cds	192	365	-	IJECGM_0067		hypothetical protein	
+SRR20203639.222	ncRNA-region	120	194	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.225	cds	67	168	-	IJECGM_0068		hypothetical protein	
+SRR20203639.225	cds	165	299	-	IJECGM_0069		hypothetical protein	
+SRR20203639.227	cds	2	220	+	IJECGM_0070		hypothetical protein	
+SRR20203639.227	ncRNA-region	181	255	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.229	cds	110	208	-	IJECGM_0071		hypothetical protein	
+SRR20203639.230	cds	190	300	+	IJECGM_0072		hypothetical protein	
+SRR20203639.232	ncRNA-region	140	216	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.234	cds	96	212	-	IJECGM_0073		hypothetical protein	
+SRR20203639.236	cds	71	169	-	IJECGM_0074		hypothetical protein	
+SRR20203639.237	cds	72	224	-	IJECGM_0075		hypothetical protein	
+SRR20203639.239	ncRNA-region	270	344	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.240	ncRNA-region	170	244	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.241	ncRNA-region	158	230	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.243	cds	183	380	+	IJECGM_0076		hypothetical protein	
+SRR20203639.249	ncRNA-region	189	262	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.250	ncRNA-region	222	297	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.253	ncRNA-region	139	212	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.254	ncRNA-region	188	259	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.256	ncRNA-region	113	189	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.262	ncRNA-region	257	331	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.264	cds	262	462	+	IJECGM_0077		hypothetical protein	
+SRR20203639.264	ncRNA-region	395	469	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.266	cds	105	194	-	IJECGM_0078		hypothetical protein	
+SRR20203639.269	ncRNA-region	173	247	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.269	cds	208	372	-	IJECGM_0079		hypothetical protein	
+SRR20203639.271	ncRNA-region	175	246	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.272	ncRNA-region	112	186	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.275	ncRNA-region	116	190	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.276	cds	167	346	+	IJECGM_0080		hypothetical protein	
+SRR20203639.276	ncRNA-region	297	370	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.277	ncRNA-region	168	239	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.279	ncRNA-region	138	211	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.280	ncRNA-region	92	162	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.281	cds	191	391	+	IJECGM_0081		hypothetical protein	
+SRR20203639.281	ncRNA-region	324	398	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.285	cds	122	292	-	IJECGM_0082		hypothetical protein	
+SRR20203639.289	ncRNA-region	178	249	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.289	cds	256	372	-	IJECGM_0083		hypothetical protein	
+SRR20203639.290	ncRNA-region	115	191	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.293	ncRNA-region	142	208	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.294	ncRNA-region	267	345	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.295	cds	140	388	-	IJECGM_0084		hypothetical protein	
+SRR20203639.295	ncRNA-region	187	255	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.297	cds	110	223	-	IJECGM_0085		hypothetical protein	
+SRR20203639.308	ncRNA-region	89	165	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.308	cds	126	296	-	IJECGM_0086		hypothetical protein	
+SRR20203639.310	ncRNA-region	186	260	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.311	ncRNA-region	109	182	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.311	cds	116	313	-	IJECGM_0087		hypothetical protein	
+SRR20203639.312	cds	162	329	+	IJECGM_0088		hypothetical protein	
+SRR20203639.320	ncRNA-region	151	222	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.322	ncRNA-region	101	174	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.323	ncRNA-region	150	224	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.325	cds	33	281	-	IJECGM_0089		hypothetical protein	
+SRR20203639.328	cds	34	144	-	IJECGM_0090		hypothetical protein	
+SRR20203639.328	cds	141	266	-	IJECGM_0091		hypothetical protein	
+SRR20203639.329	ncRNA-region	116	182	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.330	ncRNA-region	170	244	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.330	cds	205	375	-	IJECGM_0092		hypothetical protein	
+SRR20203639.333	ncRNA-region	264	338	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.334	cds	116	292	-	IJECGM_0093		hypothetical protein	
+SRR20203639.336	ncRNA-region	181	253	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.337	ncRNA-region	193	267	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.342	cds	2	319	+	IJECGM_0094		hypothetical protein	
+SRR20203639.343	ncRNA-region	136	210	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.344	cds	115	252	-	IJECGM_0095		hypothetical protein	
+SRR20203639.345	cds	169	339	+	IJECGM_0096		hypothetical protein	
+SRR20203639.345	ncRNA-region	300	374	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.347	cds	122	253	-	IJECGM_0097		hypothetical protein	
+SRR20203639.350	ncRNA-region	287	361	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.351	ncRNA-region	194	268	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.352	ncRNA-region	125	200	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.353	cds	140	262	-	IJECGM_0098		hypothetical protein	
+SRR20203639.353	ncRNA-region	180	252	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.353	cds	259	387	-	IJECGM_0099		hypothetical protein	
+SRR20203639.357	ncRNA-region	112	186	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.357	cds	193	318	-	IJECGM_0100		hypothetical protein	
+SRR20203639.364	ncRNA-region	105	175	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.369	cds	133	420	+	IJECGM_0101		hypothetical protein	
+SRR20203639.369	ncRNA-region	263	338	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.374	ncRNA-region	219	291	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.375	ncRNA-region	202	276	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.375	cds	283	411	-	IJECGM_0102		hypothetical protein	
+SRR20203639.376	cds	37	228	-	IJECGM_0103		hypothetical protein	
+SRR20203639.379	ncRNA-region	139	213	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.380	ncRNA-region	125	199	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.380	cds	160	330	-	IJECGM_0104		hypothetical protein	
+SRR20203639.389	cds	266	412	-	IJECGM_0105		hypothetical protein	
+SRR20203639.390	cds	58	234	-	IJECGM_0106		hypothetical protein	
+SRR20203639.392	ncRNA-region	206	280	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.393	cds	122	217	-	IJECGM_0107		hypothetical protein	
+SRR20203639.394	cds	2	271	+	IJECGM_0108		hypothetical protein	
+SRR20203639.394	ncRNA-region	204	278	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.395	cds	136	333	+	IJECGM_0109		hypothetical protein	
+SRR20203639.395	ncRNA-region	266	341	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.401	ncRNA-region	99	171	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.404	cds	168	416	+	IJECGM_0110		hypothetical protein	
+SRR20203639.405	ncRNA-region	114	188	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.406	cds	177	302	-	IJECGM_0111		hypothetical protein	
+SRR20203639.408	ncRNA-region	175	241	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.408	cds	248	373	-	IJECGM_0112		hypothetical protein	
+SRR20203639.409	cds	128	307	+	IJECGM_0113		hypothetical protein	
+SRR20203639.409	ncRNA-region	256	331	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.410	ncRNA-region	112	186	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.411	cds	150	317	+	IJECGM_0114		hypothetical protein	
+SRR20203639.411	ncRNA-region	277	352	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.412	cds	18	116	-	IJECGM_0115		hypothetical protein	
+SRR20203639.412	cds	113	226	-	IJECGM_0116		hypothetical protein	
+SRR20203639.422	cds	129	308	+	IJECGM_0117		hypothetical protein	
+SRR20203639.435	cds	188	388	+	IJECGM_0118		hypothetical protein	
+SRR20203639.436	cds	179	382	-	IJECGM_0119		hypothetical protein	
+SRR20203639.439	ncRNA-region	157	231	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.440	cds	117	245	-	IJECGM_0120		hypothetical protein	
+SRR20203639.441	ncRNA-region	140	215	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.443	ncRNA-region	120	193	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.444	cds	13	255	-	IJECGM_0121		hypothetical protein	
+SRR20203639.450	ncRNA-region	112	185	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.451	ncRNA-region	136	210	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.454	cds	149	277	-	IJECGM_0122		hypothetical protein	
+SRR20203639.455	ncRNA-region	248	321	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.459	ncRNA-region	153	230	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.460	ncRNA-region	173	245	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.461	ncRNA-region	104	176	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.464	cds	74	184	-	IJECGM_0123		hypothetical protein	
+SRR20203639.465	ncRNA-region	96	166	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.465	cds	127	297	-	IJECGM_0124		hypothetical protein	
+SRR20203639.466	cds	139	309	+	IJECGM_0125		hypothetical protein	
+SRR20203639.468	cds	2	352	+	IJECGM_0126		hypothetical protein	
+SRR20203639.473	cds	78	209	-	IJECGM_0127		hypothetical protein	
+SRR20203639.476	ncRNA-region	315	388	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.479	ncRNA-region	167	241	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.480	cds	175	297	-	IJECGM_0128		hypothetical protein	
+SRR20203639.481	cds	186	383	-	IJECGM_0129		hypothetical protein	
+SRR20203639.482	ncRNA-region	216	290	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.484	cds	122	244	-	IJECGM_0130		hypothetical protein	
+SRR20203639.486	ncRNA-region	93	167	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.486	cds	115	300	-	IJECGM_0131		hypothetical protein	
+SRR20203639.488	cds	72	302	-	IJECGM_0132		hypothetical protein	
+SRR20203639.488	ncRNA-region	96	169	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.489	ncRNA-region	203	277	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.490	ncRNA-region	107	178	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.491	ncRNA-region	110	184	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.493	cds	31	240	-	IJECGM_0133		hypothetical protein	
+SRR20203639.494	cds	171	314	-	IJECGM_0134		hypothetical protein	
+SRR20203639.499	cds	145	339	+	IJECGM_0135		hypothetical protein	
+SRR20203639.499	ncRNA-region	272	346	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.501	ncRNA-region	94	168	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.501	cds	175	303	-	IJECGM_0136		hypothetical protein	
+SRR20203639.505	ncRNA-region	117	183	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.507	cds	2	271	+	IJECGM_0137		hypothetical protein	
+SRR20203639.507	ncRNA-region	204	278	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.513	ncRNA-region	106	179	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.515	ncRNA-region	188	262	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.515	cds	223	396	-	IJECGM_0138		hypothetical protein	
+SRR20203639.517	cds	162	287	-	IJECGM_0139		hypothetical protein	
+SRR20203639.518	cds	98	256	-	IJECGM_0140		hypothetical protein	
+SRR20203639.519	ncRNA-region	151	224	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.520	cds	90	227	-	IJECGM_0141		hypothetical protein	
+SRR20203639.521	ncRNA-region	118	193	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.523	cds	149	346	+	IJECGM_0142		hypothetical protein	
+SRR20203639.523	ncRNA-region	279	353	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.524	cds	2	277	+	IJECGM_0143		hypothetical protein	
+SRR20203639.524	ncRNA-region	210	276	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.525	ncRNA-region	122	195	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.527	cds	119	235	-	IJECGM_0144		hypothetical protein	
+SRR20203639.528	ncRNA-region	203	275	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.531	ncRNA-region	180	253	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.531	cds	204	386	-	IJECGM_0145		hypothetical protein	
+SRR20203639.534	cds	1	270	+	IJECGM_0146		hypothetical protein	
+SRR20203639.534	ncRNA-region	203	277	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.535	ncRNA-region	275	350	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.537	ncRNA-region	169	242	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.542	ncRNA-region	93	160	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.545	cds	145	393	-	IJECGM_0147		hypothetical protein	
+SRR20203639.545	ncRNA-region	194	269	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.547	ncRNA-region	230	304	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.548	cds	194	373	-	IJECGM_0148		hypothetical protein	
+SRR20203639.550	ncRNA-region	225	299	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.551	cds	29	250	-	IJECGM_0149		hypothetical protein	
+SRR20203639.553	ncRNA-region	181	254	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.553	cds	188	382	-	IJECGM_0150		hypothetical protein	
+SRR20203639.555	cds	198	401	-	IJECGM_0151		hypothetical protein	
+SRR20203639.565	cds	191	496	+	IJECGM_0152		hypothetical protein	
+SRR20203639.567	cds	109	273	-	IJECGM_0153		hypothetical protein	
+SRR20203639.568	cds	4	237	+	IJECGM_0154		hypothetical protein	
+SRR20203639.573	ncRNA-region	155	230	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.577	cds	103	324	-	IJECGM_0155		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203639.579	ncRNA-region	178	252	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.581	cds	1	300	+	IJECGM_0156		hypothetical protein	
+SRR20203639.581	ncRNA-region	173	239	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.583	cds	139	237	+	IJECGM_0157		hypothetical protein	
+SRR20203639.583	ncRNA-region	271	344	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.585	ncRNA-region	199	273	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.588	ncRNA-region	224	297	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.589	cds	126	380	+	IJECGM_0158		hypothetical protein	
+SRR20203639.589	ncRNA-region	256	328	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.591	ncRNA-region	152	224	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.591	cds	185	352	-	IJECGM_0159		hypothetical protein	
+SRR20203639.592	cds	156	335	+	IJECGM_0160		hypothetical protein	
+SRR20203639.592	ncRNA-region	286	359	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.593	ncRNA-region	128	204	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.593	cds	154	339	-	IJECGM_0161		hypothetical protein	
+SRR20203639.594	ncRNA-region	160	233	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.594	cds	194	367	-	IJECGM_0162		hypothetical protein	
+SRR20203639.595	ncRNA-region	264	330	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.597	ncRNA-region	137	212	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.599	ncRNA-region	124	190	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.604	ncRNA-region	155	229	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.605	cds	24	248	-	IJECGM_0163		hypothetical protein	
+SRR20203639.608	cds	74	247	-	IJECGM_0164		hypothetical protein	
+SRR20203639.609	cds	164	397	-	IJECGM_0165		hypothetical protein	
+SRR20203639.611	ncRNA-region	120	192	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.615	cds	23	142	-	IJECGM_0166		hypothetical protein	
+SRR20203639.621	cds	190	384	+	IJECGM_0167		hypothetical protein	
+SRR20203639.622	cds	126	311	-	IJECGM_0168		hypothetical protein	
+SRR20203639.623	cds	133	381	-	IJECGM_0169		hypothetical protein	
+SRR20203639.626	cds	258	389	-	IJECGM_0170		hypothetical protein	
+SRR20203639.627	cds	228	395	-	IJECGM_0171		hypothetical protein	
+SRR20203639.633	ncRNA-region	228	302	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.638	cds	147	272	+	IJECGM_0172		hypothetical protein	
+SRR20203639.638	cds	269	394	+	IJECGM_0173		hypothetical protein	
+SRR20203639.638	ncRNA-region	279	355	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.640	cds	199	372	-	IJECGM_0174		hypothetical protein	
+SRR20203639.641	cds	152	319	+	IJECGM_0175		hypothetical protein	
+SRR20203639.641	ncRNA-region	280	354	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.645	ncRNA-region	127	199	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.646	cds	30	218	-	IJECGM_0176		hypothetical protein	
+SRR20203639.649	cds	175	363	+	IJECGM_0177		hypothetical protein	
+SRR20203639.653	cds	169	363	+	IJECGM_0178		hypothetical protein	
+SRR20203639.659	cds	71	187	-	IJECGM_0179		hypothetical protein	
+SRR20203639.662	ncRNA-region	106	178	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.663	ncRNA-region	215	289	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.667	cds	148	318	-	IJECGM_0180		hypothetical protein	
+SRR20203639.669	cds	27	227	+	IJECGM_0181		hypothetical protein	
+SRR20203639.670	cds	93	284	-	IJECGM_0182		hypothetical protein	
+SRR20203639.672	cds	119	244	-	IJECGM_0183		hypothetical protein	
+SRR20203639.674	ncRNA-region	136	211	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203639.676	cds	108	206	-	IJECGM_0184		hypothetical protein	

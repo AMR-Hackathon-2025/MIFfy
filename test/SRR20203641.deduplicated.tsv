@@ -1,0 +1,310 @@
+# Annotated with Bakta
+# Software: v1.11.0
+# Database: v6.0, light
+# DOI: 10.1099/mgen.0.000685
+# URL: github.com/oschwengers/bakta
+#Sequence Id	Type	Start	Stop	Strand	Locus Tag	Gene	Product	DbXrefs
+SRR20203641.1	cds	71	301	-	JHIFCB_0001		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.2	cds	57	218	-	JHIFCB_0002		hypothetical protein	
+SRR20203641.3	ncRNA-region	100	171	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.3	cds	132	254	-	JHIFCB_0003		hypothetical protein	
+SRR20203641.6	ncRNA-region	308	382	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.9	cds	70	573	-	JHIFCB_0004		hypothetical protein	
+SRR20203641.9	cds	573	728	-	JHIFCB_0005		hypothetical protein	
+SRR20203641.12	cds	78	287	-	JHIFCB_0006		hypothetical protein	
+SRR20203641.13	cds	280	495	-	JHIFCB_0007		hypothetical protein	
+SRR20203641.13	cds	492	722	-	JHIFCB_0008		hypothetical protein	
+SRR20203641.18	ncRNA-region	160	234	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.18	cds	195	392	-	JHIFCB_0009		hypothetical protein	
+SRR20203641.20	cds	77	226	-	JHIFCB_0010		hypothetical protein	
+SRR20203641.23	ncRNA-region	201	275	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.26	ncRNA-region	255	327	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.26	cds	272	406	-	JHIFCB_0011		hypothetical protein	
+SRR20203641.28	cds	1190	1672	-	JHIFCB_0012		hypothetical protein	
+SRR20203641.28	ncRNA-region	1523	1590	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.29	ncRNA-region	435	512	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.31	cds	581	907	+	JHIFCB_0013		hypothetical protein	
+SRR20203641.32	cds	114	233	-	JHIFCB_0014		hypothetical protein	
+SRR20203641.36	ncRNA-region	106	176	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.37	cds	111	218	-	JHIFCB_0015		hypothetical protein	
+SRR20203641.37	cds	227	346	+	JHIFCB_0016		hypothetical protein	
+SRR20203641.39	cds	45	164	-	JHIFCB_0017		hypothetical protein	
+SRR20203641.39	cds	173	316	+	JHIFCB_0018		hypothetical protein	
+SRR20203641.39	ncRNA-region	249	323	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.40	cds	219	371	-	JHIFCB_0019		hypothetical protein	
+SRR20203641.41	ncRNA-region	173	246	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.41	cds	336	455	+	JHIFCB_0020		hypothetical protein	
+SRR20203641.42	ncRNA-region	181	251	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.44	cds	60	230	-	JHIFCB_0021		hypothetical protein	
+SRR20203641.44	ncRNA-region	318	392	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.48	ncRNA-region	204	278	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.48	cds	239	361	-	JHIFCB_0022		hypothetical protein	
+SRR20203641.50	cds	70	360	-	JHIFCB_0023		hypothetical protein	
+SRR20203641.51	ncRNA-region	116	190	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.51	cds	151	270	-	JHIFCB_0024		hypothetical protein	
+SRR20203641.52	cds	25	642	-	JHIFCB_0025		hypothetical protein	
+SRR20203641.53	cds	221	370	+	JHIFCB_0026		hypothetical protein	
+SRR20203641.55	ncRNA-region	132	206	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.57	cds	56	247	-	JHIFCB_0027		hypothetical protein	
+SRR20203641.59	cds	109	237	-	JHIFCB_0028		hypothetical protein	
+SRR20203641.59	cds	246	377	+	JHIFCB_0029		hypothetical protein	
+SRR20203641.62	cds	218	343	-	JHIFCB_0030		hypothetical protein	
+SRR20203641.63	ncRNA-region	116	190	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.65	cds	122	235	-	JHIFCB_0031		hypothetical protein	
+SRR20203641.66	cds	115	213	-	JHIFCB_0032		hypothetical protein	
+SRR20203641.66	ncRNA-region	304	378	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.69	cds	63	173	-	JHIFCB_0033		hypothetical protein	
+SRR20203641.71	cds	55	360	-	JHIFCB_0034		hypothetical protein	
+SRR20203641.74	cds	53	256	-	JHIFCB_0035		hypothetical protein	
+SRR20203641.77	cds	45	185	-	JHIFCB_0036		hypothetical protein	
+SRR20203641.78	ncRNA-region	128	201	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.81	ncRNA-region	770	842	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.81	cds	778	1005	-	JHIFCB_0037		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.82	ncRNA-region	310	375	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.85	ncRNA-region	154	228	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.86	ncRNA-region	177	251	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.86	cds	184	330	-	JHIFCB_0038		hypothetical protein	
+SRR20203641.92	cds	1971	2183	-	JHIFCB_0039		hypothetical protein	
+SRR20203641.92	ncRNA-region	2027	2104	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.94	cds	233	433	-	JHIFCB_0040		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.95	ncRNA-region	153	229	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.95	cds	190	303	-	JHIFCB_0041		hypothetical protein	
+SRR20203641.97	cds	127	246	+	JHIFCB_0042		hypothetical protein	
+SRR20203641.97	ncRNA-region	207	279	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.98	tRNA	225	296	+	JHIFCB_0043		tRNA-Xxx	
+SRR20203641.101	cds	90	194	-	JHIFCB_0044		hypothetical protein	
+SRR20203641.106	ncRNA-region	250	324	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.107	cds	240	386	+	JHIFCB_0045		hypothetical protein	
+SRR20203641.107	ncRNA-region	320	393	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.108	cds	14	310	-	JHIFCB_0046		hypothetical protein	
+SRR20203641.108	ncRNA-region	163	237	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.108	cds	319	408	+	JHIFCB_0047		hypothetical protein	
+SRR20203641.113	cds	211	330	-	JHIFCB_0048		hypothetical protein	
+SRR20203641.114	ncRNA-region	155	229	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.114	cds	162	308	-	JHIFCB_0049		hypothetical protein	
+SRR20203641.118	ncRNA-region	182	256	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.118	cds	189	338	-	JHIFCB_0050		hypothetical protein	
+SRR20203641.119	ncRNA-region	192	266	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.122	ncRNA-region	881	955	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.123	cds	36	203	-	JHIFCB_0051		hypothetical protein	
+SRR20203641.127	cds	223	429	-	JHIFCB_0052		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.128	cds	70	165	-	JHIFCB_0053		hypothetical protein	
+SRR20203641.128	cds	174	308	+	JHIFCB_0054		hypothetical protein	
+SRR20203641.129	ncRNA-region	148	221	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.129	cds	155	301	-	JHIFCB_0055		hypothetical protein	
+SRR20203641.132	ncRNA-region	158	232	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.133	ncRNA-region	106	182	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.134	cds	178	315	-	JHIFCB_0056		hypothetical protein	
+SRR20203641.137	ncRNA-region	349	421	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.138	ncRNA-region	139	213	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.138	cds	146	298	-	JHIFCB_0057		hypothetical protein	
+SRR20203641.140	cds	133	330	+	JHIFCB_0058		hypothetical protein	
+SRR20203641.140	ncRNA-region	291	357	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.146	cds	46	201	-	JHIFCB_0059		hypothetical protein	
+SRR20203641.148	cds	158	271	+	JHIFCB_0060		hypothetical protein	
+SRR20203641.148	ncRNA-region	232	306	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.150	cds	110	208	-	JHIFCB_0061		hypothetical protein	
+SRR20203641.152	ncRNA-region	297	371	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.153	ncRNA-region	128	202	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.153	cds	135	359	-	JHIFCB_0062		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.154	cds	225	344	+	JHIFCB_0063		hypothetical protein	
+SRR20203641.154	ncRNA-region	305	380	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.159	cds	17	271	-	JHIFCB_0064		hypothetical protein	
+SRR20203641.161	ncRNA-region	116	190	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.161	cds	123	269	-	JHIFCB_0065		hypothetical protein	
+SRR20203641.166	ncRNA-region	163	233	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.168	ncRNA-region	98	171	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.169	ncRNA-region	133	209	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.174	cds	63	227	-	JHIFCB_0066		hypothetical protein	
+SRR20203641.175	ncRNA-region	1543	1612	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.176	ncRNA-region	158	231	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.179	cds	264	434	-	JHIFCB_0067		hypothetical protein	
+SRR20203641.180	ncRNA-region	137	211	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.180	cds	144	371	-	JHIFCB_0068		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.183	ncRNA-region	167	241	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.187	ncRNA-region	169	243	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.188	cds	59	229	-	JHIFCB_0069		hypothetical protein	
+SRR20203641.188	cds	238	366	+	JHIFCB_0070		hypothetical protein	
+SRR20203641.188	ncRNA-region	317	390	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.188	cds	795	1127	+	JHIFCB_0071		hypothetical protein	PFAM:PF13427.11
+SRR20203641.189	cds	190	570	-	JHIFCB_0072		hypothetical protein	
+SRR20203641.189	ncRNA-region	495	563	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.189	cds	570	722	-	JHIFCB_0073		hypothetical protein	
+SRR20203641.192	cds	75	215	-	JHIFCB_0074		hypothetical protein	
+SRR20203641.192	ncRNA-region	304	378	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.197	ncRNA-region	186	260	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.199	cds	184	297	-	JHIFCB_0075		hypothetical protein	
+SRR20203641.201	ncRNA-region	258	332	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.203	ncRNA-region	1122	1192	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.204	ncRNA-region	182	256	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.204	cds	189	335	-	JHIFCB_0076		hypothetical protein	
+SRR20203641.206	ncRNA-region	180	253	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.206	cds	195	413	-	JHIFCB_0077		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.210	cds	396	635	-	JHIFCB_0078		hypothetical protein	
+SRR20203641.212	ncRNA-region	276	351	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.214	ncRNA-region	265	335	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.216	cds	129	335	-	JHIFCB_0079		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.220	cds	219	314	-	JHIFCB_0080		hypothetical protein	
+SRR20203641.221	ncRNA-region	132	207	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.223	cds	34	204	-	JHIFCB_0081		hypothetical protein	
+SRR20203641.223	ncRNA-region	291	365	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.225	cds	66	227	-	JHIFCB_0082		hypothetical protein	
+SRR20203641.228	ncRNA-region	108	182	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.230	ncRNA-region	164	238	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.232	cds	133	285	-	JHIFCB_0083		hypothetical protein	
+SRR20203641.233	cds	48	206	-	JHIFCB_0084		hypothetical protein	
+SRR20203641.235	ncRNA-region	91	164	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.235	cds	113	244	-	JHIFCB_0085		hypothetical protein	
+SRR20203641.240	ncRNA-region	199	272	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.245	cds	109	282	-	JHIFCB_0086		hypothetical protein	
+SRR20203641.245	ncRNA-region	126	203	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.250	cds	108	215	-	JHIFCB_0087		hypothetical protein	
+SRR20203641.252	cds	432	590	-	JHIFCB_0088		hypothetical protein	
+SRR20203641.253	cds	160	468	+	JHIFCB_0089		hypothetical protein	
+SRR20203641.255	ncRNA-region	180	254	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.255	cds	187	372	-	JHIFCB_0090		hypothetical protein	
+SRR20203641.256	cds	204	323	+	JHIFCB_0091		hypothetical protein	
+SRR20203641.257	ncRNA-region	144	218	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.257	cds	168	296	-	JHIFCB_0092		hypothetical protein	
+SRR20203641.258	cds	71	178	-	JHIFCB_0093		hypothetical protein	
+SRR20203641.260	cds	246	341	-	JHIFCB_0094		hypothetical protein	
+SRR20203641.262	ncRNA-region	166	238	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.263	cds	204	332	-	JHIFCB_0095		hypothetical protein	
+SRR20203641.263	cds	341	436	+	JHIFCB_0096		hypothetical protein	
+SRR20203641.265	ncRNA-region	119	191	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.267	ncRNA-region	194	273	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.270	ncRNA-region	237	312	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.272	ncRNA-region	182	256	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.274	cds	23	376	+	JHIFCB_0097		hypothetical protein	
+SRR20203641.274	ncRNA-region	264	337	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.276	cds	237	359	+	JHIFCB_0098		hypothetical protein	
+SRR20203641.276	ncRNA-region	320	394	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.278	cds	44	247	-	JHIFCB_0099		hypothetical protein	
+SRR20203641.278	ncRNA-region	95	166	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.279	cds	57	167	-	JHIFCB_0100		hypothetical protein	
+SRR20203641.283	cds	61	159	-	JHIFCB_0101		hypothetical protein	
+SRR20203641.284	ncRNA-region	138	209	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.290	ncRNA-region	133	207	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.291	cds	44	175	-	JHIFCB_0102		hypothetical protein	
+SRR20203641.291	ncRNA-region	262	334	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.293	ncRNA-region	89	158	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.293	cds	100	237	-	JHIFCB_0103		hypothetical protein	
+SRR20203641.294	cds	73	165	-	JHIFCB_0104		hypothetical protein	
+SRR20203641.295	cds	127	246	-	JHIFCB_0105		hypothetical protein	
+SRR20203641.297	cds	218	421	-	JHIFCB_0106		hypothetical protein	
+SRR20203641.302	cds	52	186	-	JHIFCB_0107		hypothetical protein	
+SRR20203641.302	cds	195	341	+	JHIFCB_0108		hypothetical protein	
+SRR20203641.303	cds	147	356	+	JHIFCB_0109		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.305	ncRNA-region	167	242	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.310	cds	113	331	+	JHIFCB_0110		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.310	ncRNA-region	270	346	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.311	ncRNA-region	98	167	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.311	cds	109	327	-	JHIFCB_0111		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.313	cds	122	349	-	JHIFCB_0112		hypothetical protein	
+SRR20203641.314	ncRNA-region	267	334	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.315	ncRNA-region	202	275	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.319	ncRNA-region	189	262	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.319	cds	213	344	-	JHIFCB_0113		hypothetical protein	
+SRR20203641.320	cds	190	339	-	JHIFCB_0114		hypothetical protein	
+SRR20203641.321	cds	62	190	-	JHIFCB_0115		hypothetical protein	
+SRR20203641.321	cds	199	330	+	JHIFCB_0116		hypothetical protein	
+SRR20203641.322	ncRNA-region	264	336	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.324	cds	57	224	-	JHIFCB_0117		hypothetical protein	
+SRR20203641.326	cds	104	196	-	JHIFCB_0118		hypothetical protein	
+SRR20203641.326	ncRNA-region	286	360	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.328	cds	410	565	-	JHIFCB_0119		hypothetical protein	
+SRR20203641.328	cds	562	699	-	JHIFCB_0120		hypothetical protein	
+SRR20203641.331	ncRNA-region	108	179	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.331	cds	128	337	-	JHIFCB_0121		hypothetical protein	
+SRR20203641.342	cds	137	286	+	JHIFCB_0122		hypothetical protein	
+SRR20203641.342	ncRNA-region	219	293	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.345	cds	187	315	+	JHIFCB_0123		hypothetical protein	
+SRR20203641.345	ncRNA-region	266	339	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.349	ncRNA-region	131	205	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.352	cds	215	328	-	JHIFCB_0124		hypothetical protein	
+SRR20203641.354	ncRNA-region	132	206	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.358	ncRNA-region	95	164	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.358	cds	118	243	-	JHIFCB_0125		hypothetical protein	
+SRR20203641.362	ncRNA-region	108	182	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.362	cds	115	342	-	JHIFCB_0126		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.364	cds	368	517	-	JHIFCB_0127		hypothetical protein	
+SRR20203641.366	cds	46	198	-	JHIFCB_0128		hypothetical protein	
+SRR20203641.366	cds	207	326	+	JHIFCB_0129		hypothetical protein	
+SRR20203641.366	ncRNA-region	287	360	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.367	cds	1188	1553	-	JHIFCB_0130		hypothetical protein	
+SRR20203641.369	cds	811	1155	-	JHIFCB_0131		hypothetical protein	
+SRR20203641.369	ncRNA-region	922	995	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.370	ncRNA-region	295	363	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.372	cds	165	317	+	JHIFCB_0132		hypothetical protein	
+SRR20203641.372	ncRNA-region	324	399	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.379	cds	141	428	+	JHIFCB_0133		hypothetical protein	
+SRR20203641.379	ncRNA-region	301	376	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.380	ncRNA-region	188	263	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.381	ncRNA-region	135	209	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.381	cds	142	291	-	JHIFCB_0134		hypothetical protein	
+SRR20203641.382	cds	2	388	+	JHIFCB_0135		hypothetical protein	
+SRR20203641.389	cds	131	322	-	JHIFCB_0136		hypothetical protein	
+SRR20203641.394	ncRNA-region	193	267	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.398	ncRNA-region	201	274	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.400	cds	107	229	-	JHIFCB_0137		hypothetical protein	
+SRR20203641.401	cds	38	151	-	JHIFCB_0138		hypothetical protein	
+SRR20203641.404	cds	56	181	-	JHIFCB_0139		hypothetical protein	
+SRR20203641.404	ncRNA-region	269	329	+			(3' truncated) putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.410	cds	335	988	+	JHIFCB_0140		hypothetical protein	
+SRR20203641.410	cds	1241	2230	-	JHIFCB_0141		hypothetical protein	
+SRR20203641.411	ncRNA-region	196	263	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.412	ncRNA-region	140	218	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.412	cds	474	698	+	JHIFCB_0142		hypothetical protein	
+SRR20203641.416	cds	49	306	-	JHIFCB_0143		hypothetical protein	
+SRR20203641.416	ncRNA-region	152	227	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.421	cds	42	140	-	JHIFCB_0144		hypothetical protein	
+SRR20203641.421	cds	149	346	+	JHIFCB_0145		hypothetical protein	
+SRR20203641.425	ncRNA-region	263	336	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.429	ncRNA-region	105	180	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.431	cds	28	192	-	JHIFCB_0146		hypothetical protein	
+SRR20203641.433	cds	64	228	-	JHIFCB_0147		hypothetical protein	
+SRR20203641.435	ncRNA-region	128	201	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.436	ncRNA-region	274	343	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.436	cds	304	423	-	JHIFCB_0148		hypothetical protein	
+SRR20203641.438	ncRNA-region	183	257	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.438	cds	190	339	-	JHIFCB_0149		hypothetical protein	
+SRR20203641.442	cds	25	135	-	JHIFCB_0150		hypothetical protein	
+SRR20203641.442	cds	144	299	+	JHIFCB_0151		hypothetical protein	
+SRR20203641.444	cds	515	715	-	JHIFCB_0152		hypothetical protein	
+SRR20203641.447	ncRNA-region	237	310	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.447	cds	271	390	-	JHIFCB_0153		hypothetical protein	
+SRR20203641.448	cds	59	235	-	JHIFCB_0154		hypothetical protein	
+SRR20203641.448	cds	244	366	+	JHIFCB_0155		hypothetical protein	
+SRR20203641.457	cds	141	353	-	JHIFCB_0156		hypothetical protein	
+SRR20203641.458	cds	117	218	-	JHIFCB_0157		hypothetical protein	
+SRR20203641.459	cds	105	212	-	JHIFCB_0158		hypothetical protein	
+SRR20203641.462	ncRNA-region	239	313	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.465	cds	59	181	-	JHIFCB_0159		hypothetical protein	
+SRR20203641.466	cds	102	230	-	JHIFCB_0160		hypothetical protein	
+SRR20203641.468	cds	141	278	-	JHIFCB_0161		hypothetical protein	
+SRR20203641.468	cds	287	406	+	JHIFCB_0162		hypothetical protein	
+SRR20203641.474	ncRNA-region	116	190	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.481	ncRNA-region	191	265	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.481	cds	226	339	-	JHIFCB_0163		hypothetical protein	
+SRR20203641.482	cds	58	222	-	JHIFCB_0164		hypothetical protein	
+SRR20203641.483	cds	47	211	-	JHIFCB_0165		hypothetical protein	
+SRR20203641.484	cds	517	636	-	JHIFCB_0166		hypothetical protein	
+SRR20203641.485	cds	150	305	-	JHIFCB_0167		hypothetical protein	
+SRR20203641.487	cds	360	560	-	JHIFCB_0168		hypothetical protein	
+SRR20203641.494	cds	46	342	-	JHIFCB_0169		hypothetical protein	
+SRR20203641.496	cds	62	214	-	JHIFCB_0170		hypothetical protein	
+SRR20203641.498	cds	223	342	+	JHIFCB_0171		hypothetical protein	
+SRR20203641.504	ncRNA-region	670	741	-			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.504	cds	677	895	-	JHIFCB_0172		Streptomycin 3''-O-adenylyltransferase partial	SO:0001217, UniRef:UniRef50_A0A1Y6M430
+SRR20203641.506	ncRNA-region	136	211	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.510	cds	134	259	-	JHIFCB_0173		hypothetical protein	
+SRR20203641.514	cds	191	409	+	JHIFCB_0174		hypothetical protein	
+SRR20203641.518	cds	146	427	-	JHIFCB_0175		hypothetical protein	
+SRR20203641.519	cds	147	353	+	JHIFCB_0176		hypothetical protein	
+SRR20203641.519	ncRNA-region	229	302	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.522	cds	215	343	-	JHIFCB_0177		hypothetical protein	
+SRR20203641.525	cds	208	324	-	JHIFCB_0178		hypothetical protein	
+SRR20203641.528	cds	59	223	-	JHIFCB_0179		hypothetical protein	
+SRR20203641.528	cds	232	378	+	JHIFCB_0180		hypothetical protein	
+SRR20203641.528	ncRNA-region	311	385	+			putative aminoglycoside riboswitch / attI site	RFAM:RF02912, SO:0000035
+SRR20203641.530	cds	37	273	-	JHIFCB_0181		hypothetical protein	
