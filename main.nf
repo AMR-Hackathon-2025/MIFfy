@@ -3,7 +3,7 @@
 
 workflow {
     
-    sample_sheet = "${params.projecDir}/test/annotation_test.csv"
+    sample_sheet = "${projectDir}/test/annotation_test.csv"
 
 
     if (params.sample_sheet){
