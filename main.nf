@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 include { run_miffy } from './subworkflows/miffy'
 
 
@@ -19,3 +20,19 @@ workflow {
     run_miffy(fastq_ch)
 
 }
+=======
+
+
+
+workflow {
+    
+    sample_sheet = "${params.projecDir}/test/annotation_test.csv"
+
+
+    if (params.sample_sheet){
+        fasta_ch = Channel.fromPath(sample_sheet) | splitCsv(header:true) | map {row->tuple(row.sample_id, file(row.fasta))}
+    }
+    annotation(fasta_ch)
+
+}
+>>>>>>> 0532adab064f7a1fd4d5f985d428d3eabdf01864
