@@ -36,16 +36,10 @@ process bakta{
 
     script:
     """
-    bakta --db ${params.database} --skip-plot --keep-contig-headers ${fasta}
+    bakta --db ${params.bakta_database} --skip-plot --keep-contig-headers ${fasta}
     """
 }
 
-
-// process oasis{
-
-
-
-// }
 
 
 workflow annotation {
