@@ -18,7 +18,6 @@ def commandline():
     parser.add_argument(
         '--fasta',
         '-f',
-        type=argparse.FileType('r'),
         required=True,
         help='FASTA sequence to de-duplicate.',
     )
@@ -34,7 +33,6 @@ def commandline():
     return args
 
 def deduplicate_fasta(input_fasta, output_dir):
-
     output_fasta = os.path.join(output_dir, os.path.basename(input_fasta).split('.')[0], str('.deduplicated.fasta'))
     summary_table = os.path.join(output_dir,  os.path.basename(input_fasta).split('.')[0], str('.duplication_counts.fasta'))
 
