@@ -1,5 +1,5 @@
 include { dehost } from '../modules/dehost'
-
+include { assemble } from '../modules/assemble'
 
 workflow run_miffy
 {
@@ -7,6 +7,7 @@ workflow run_miffy
         fastq_ch
     main:
         dehost(fastq_ch)
+        assemble(dehost.out)
     emit:
-        dehost.out
+        assemble.out.fasta
 }
