@@ -7,19 +7,15 @@ workflow {
     if (params.out_dir)
         exit 1, "Please specify outdir with --outdir -- aborting"
 
-    unique_id = "${params.unique_id}"
-
-    if (unique_id == "null") {
-        if (params.fastq) {
-            fastq = file(params.fastq, type: "file", checkIfExists:true)
-            unique_id = "${fastq.simpleName}"
-        } else {
-            exit 1, "Please specify --fastq -- aborting"
-        }
+    fastq = file(params.fastq, type: "file", checkIfExists:true)
+    if (params.unique_id == "null"){
+        unique_id = "${fastq.simpleName}"
+    } else {
+        unique_id = "${params.unique_id}"
     }
 
-    fastq_ch = Channel.from(fastq)
-    input_ch = [unique_id, fastq_ch]
-    
+    fastq_ch = Channel.of([unique_id, fastq])
+    fastq_ch.view()
+    run_miffy(fastq_ch)
 
 }
