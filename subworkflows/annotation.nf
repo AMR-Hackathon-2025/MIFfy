@@ -32,7 +32,7 @@ process virulance_factors {
 }
 
 process bakta{
-
+// bakta --db ~/db-light --skip-plot --keep-contig-headers ./IS.dedup.fna 
 
 }
 
