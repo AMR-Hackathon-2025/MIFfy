@@ -28,7 +28,7 @@ def commandline():
         default = os.getcwd(),
         help='Output directory for de-duplicated sequence.',
         type=valid_directory,
-        required=True,
+        required=False,
     )
     args = parser.parse_args()
     return args

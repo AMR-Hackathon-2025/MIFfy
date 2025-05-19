@@ -8,7 +8,7 @@
 process cluster_reads{
     label 'process_low'
     container 'community.wave.seqera.io/library/bio:1.8.0--1a14c5d84ae932e1'
-    
+
     publishDir "${params.outdir}/annotation/", mode: 'copy'
 
     input:
@@ -19,7 +19,7 @@ process cluster_reads{
 
     script:
     """
-    deduplicate_fasta.py -i ${fasta} 
+    deduplicate_fasta.py -f ${fasta} 
     """
 
 }
