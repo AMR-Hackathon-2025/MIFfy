@@ -65,11 +65,5 @@ def main():
     args = commandline()
     deduplicate_fasta(args.input_fasta, args.output_dir)
 
-
-
 if __name__ == '__main__':
     main()
-
-
-# Example usage
-# 
