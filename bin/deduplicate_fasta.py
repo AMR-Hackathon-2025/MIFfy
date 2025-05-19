@@ -62,7 +62,7 @@ def deduplicate_fasta(input_fasta, output_dir):
 
 def main():
     args = commandline()
-    deduplicate_fasta(args.input_fasta, args.output_dir)
+    deduplicate_fasta(args.fasta, args.output_dir)
 
 if __name__ == '__main__':
     main()
