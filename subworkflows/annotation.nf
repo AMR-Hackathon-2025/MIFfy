@@ -36,7 +36,7 @@ process bakta{
 
     script:
     """
-    bakta --db ${database} --skip-plot --keep-contig-headers ${fasta}
+    bakta --db ${params.database} --skip-plot --keep-contig-headers ${fasta}
     """
 }
 
@@ -51,7 +51,7 @@ process bakta{
 workflow annotation {
 
     take:
-        fasta_ch, database // fasta
+        fasta_ch // fasta
 
     main:
         cluster_reads(fasta_ch)     
