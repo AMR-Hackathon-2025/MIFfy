@@ -15,7 +15,7 @@ process cluster_reads{
         tuple val(sample_id), file(fasta)
 
     output:
-        tuple file("*.deduplicated.fasta"), file("*.duplication_counts.tsv")
+        tuple val(sample_id), file("*.deduplicated.fasta"), file("*.duplication_counts.tsv")
 
     script:
     """
@@ -24,26 +24,21 @@ process cluster_reads{
 
 }
 
-// process convert_to_fasta{
-//     // exiting process
+process bakta{
+    label 'process_low'
 
+    publishDir "${params.outdir}/annotation/", mode: 'copy'
+    
+    container 'biocontainers/bakta:1.11.0--pyhdfd78af_0'
 
-// }
+    input:
+        tuple val(sample_id), file(fasta), file(de_dup_counts_table)
 
-// process amr_detection {
-//     // https://nf-co.re/modules/abricate_run/
-//     // nf-core/funcscan
-// }
-
-// process virulance_factors {
-//     // 
-
-// }
-
-// process bakta{
-
-
-// }
+    script:
+    """
+    bakta --db ${database} --skip-plot --keep-contig-headers ${fasta}
+    """
+}
 
 
 // process oasis{
@@ -56,11 +51,11 @@ process cluster_reads{
 workflow annotation {
 
     take:
-        fastq_ch // fasta
+        fasta_ch, database // fasta
 
     main:
-        cluster_reads(fastq_ch)     
-        // convert_to_fasta(cluster_unqiue_reads.out)
+        cluster_reads(fasta_ch)     
+        bakta(cluster_unqiue_reads.out)
 
 
 
