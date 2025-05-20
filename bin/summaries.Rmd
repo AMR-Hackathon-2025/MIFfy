@@ -4,24 +4,25 @@ params:
   result_dir: ""
   result_file: ""
 ---
-```{r echo=FALSE, setup}
+```{r echo=FALSE, message=FALSE}
 library(knitr)
 library(tidyverse)
 ```
-# count unique clusters
 ```{r echo=FALSE, message=FALSE}
 contig.results <- read_tsv(params$result_file)
 # we're assuming one integron per read
 distinct.clusters <- nrow(distinct(contig.results, ReadID)) # TODO name will likely change
 ```
-# table: unique integrons with visualization (and amount times seen?)  and resistance from bakta if possible
+MIFfy found `r distinct.clusters` unique integron(s) in the sample.
+
+## Unique integrons
 ```{r echo=FALSE, message=FALSE}
 contig.results %>% distinct(ReadID, .keep_all=TRUE) %>%
  mutate(integron_plot = str_c('![](', file.path(params$result_dir, "images", str_c(ReadID, ".png")), ')')) %>%
   select(ReadID, integron_plot, AMR) %>%
         knitr::kable()
 ```
-# table: unique cassettes with times seen  and resistance from bakta (and visualization?)
+## Unique cassettes
 
 ```{r echo=FALSE, message=FALSE}
 contig.results %>% add_count(Cassete_ID, name="times_seen") %>%
