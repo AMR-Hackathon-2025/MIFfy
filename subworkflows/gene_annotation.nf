@@ -80,6 +80,21 @@ process blast {
 
 }
 
+process combine_bakta_and_blast {
+    label 'process_low'
+    container 'community.wave.seqera.io/library/r-tidyverse:2.0.0--dd61b4cbf9e28186'
+    publishDir "${params.outdir}/annotation/${sample_id}", mode: 'copy'
+
+    input:
+        tuple val(unique_id), path(bakta_tsv), path(blast_tsv)
+    output:
+        tuple val(unique_id), path("${unique_id}.bakta_blast_annotation_merge.tsv")
+    script:
+    """
+    Rscript ${projectDir}/bin/annotation_merging.R ${bakta_tsv} ${blast_tsv} ${unique_id}.bakta_blast_annotation_merge.tsv
+    """
+}
+
 workflow annotation {
 
     take:
@@ -89,4 +104,8 @@ workflow annotation {
         cluster_reads(fasta_ch)     
         bakta(cluster_reads.out)
         blast(cluster_reads.out)
+        bakta.out.tsv.combine(blast.out, by: 0).set{bakta_and_blast_ch}
+        combine_bakta_and_blast(bakta_and_blast_ch)
+    emit:
+        tsv = combine_bakta_and_blast.out
 }
