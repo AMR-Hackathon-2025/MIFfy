@@ -89,7 +89,7 @@ workflow annotation {
     main:
         cluster_reads(fasta_ch)     
         bakta(cluster_reads.out)
-        ch_blast_db = params.blast_database ? file("${params.blast_database}" : [])
+        ch_blast_db = params.blast_database ? file("${params.blast_database}") : []
         blast(cluster_reads.out, ch_blast_db)
 
 
