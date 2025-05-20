@@ -75,7 +75,7 @@ process blast {
         -out ${sample_id}.deduplicated.hits.tsv \\
         -outfmt "6 qseqid sseqid pident length mismatch qstart qend sstart send evalue bitscore qseq" \\
         -max_target_seqs 1 \\
-        -threads $task.cpus
+        -num_threads $task.cpus
     """
 
 }
