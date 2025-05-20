@@ -29,8 +29,8 @@ with open("${integrons}", "r") as f:
             integron_dict[row["ID_replicon"]]["end"] = int(row["pos_end"])
 
 out_records = []
-
-with SeqIO.parse("${fasta}", "fasta") as fasta_fh:
+with open("${fasta}", "r") as fasta_fh:
+    fasta_it = SeqIO.parse(fasta_fh, "fasta")
     for record in fasta_fh:
         if integron_dict.get(record.id):
             header = f">{record.id}_{integron_dict[record.id]['start']}_{integron_dict[record.id]['end']}"
