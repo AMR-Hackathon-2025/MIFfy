@@ -80,6 +80,18 @@ process blast {
 
 }
 
+process combine_bakta_and_blast {
+    input:
+        tuple val(unique_id), path(bakta_tsv), path(blast_tsv)
+    output:
+        tuple val(unique_id), path("test.tsv")
+    script:
+    """
+    touch "test.tsv"
+    """
+}
+
+
 workflow annotation {
 
     take:
@@ -89,4 +101,8 @@ workflow annotation {
         cluster_reads(fasta_ch)     
         bakta(cluster_reads.out)
         blast(cluster_reads.out)
+        bakta.out.tsv.combine(blast.out, by: 0).set{bakta_and_blast_ch}
+        combine_bakta_and_blast(bakta_and_blast_ch)
+    emit:
+        tsv = combine_bakta_and_blast.out
 }
