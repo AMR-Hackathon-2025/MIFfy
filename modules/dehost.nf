@@ -21,7 +21,7 @@ process fetchHostileReference {
 
 process runHostile {
 
-    label "process_low"
+    label "process_medium"
     container "community.wave.seqera.io/library/hostile:2.0.0--a16bb8e6c792e0d0"
 
     input:
