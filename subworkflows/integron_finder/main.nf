@@ -17,7 +17,6 @@ workflow INTEGRON_FINDER {
     PARSE_INTEGRON_RESULTS(ch_parse_input)
 
     emit:
-    contigs             = ch_contigs.map { meta, contig -> [meta.id, contig] }
     integrons           = PARSE_INTEGRON_RESULTS.out.fasta.map { meta, integron_fasta -> [meta.id, integron_fasta] }
     integron_result_tsv = PARSE_INTEGRON_RESULTS.out.integron_results_tsv.map { meta, integron_tsv -> [meta.id, integron_tsv] }
 }
