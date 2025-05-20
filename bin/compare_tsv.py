@@ -47,11 +47,15 @@ def combine_tsv(tsv1, tsv2):
     
     combined_content = compare_contents(content1, content2)
 
-    with open("combined.tsv", "r") as outfile:
-        writer = csv.DictWriter(csvfile, fieldnames=combined_headers, delimiter="\t")
-        writer.writeheader()
-        for row in combined_content:
-            writer.writerow(row)
+    # split by read_id
+    read_ids = set([row["ReadID"] for row in combined_content])
+    for read_id in read_ids:
+        with open(f"{read_id}.tsv", "r") as outfile:
+            writer = csv.DictWriter(csvfile, fieldnames=combined_headers, delimiter="\t")
+            writer.writeheader()
+            for row in combined_content:
+                if row["ReadID"] == read_id:
+                    writer.writerow(row)
 
 
 # Main method
