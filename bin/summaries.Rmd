@@ -1,0 +1,31 @@
+---
+title: "MIFfy summary"
+params:
+    result_dir: ""
+    result_file: ""
+---
+```{r echo=FALSE, setup}
+library(knitr)
+library(tidyverse)
+```
+# count unique clusters
+```{r echo=FALSE}
+contig.results <- read_tsv(params$result_file)
+# we're assuming one integron per read
+distinct.clusters <- nrows(distinct(contig.result, ReadID)) # TODO name will likely change
+```
+# table: unique integrons with visualization (and amount times seen?)  and resistance from bakta if possible
+```{r echo=FALSE}
+contig.results %>% distinct(ReadID, keep_all=TRUE) %>%
+mutate(integron_plot = paste0('![](', file.path(c(params$result_dir, "images", paste0(ReadID, ".png"))), ')')) %>%
+  select(ReadID, integron_plot, AMR) %>%
+        knitr::kable()
+```
+# table: unique cassettes with times seen  and resistance from bakta (and visualization?)
+
+```{r echo=FALSE}
+contig.results %>% add_count(CasseteID, name=times_seen) %>%
+  distinct(CasseteID, keep_all=TRUE) %>%
+  select(CasseteID, times_seen, AMR) %>%
+        knitr::kable()
+```
