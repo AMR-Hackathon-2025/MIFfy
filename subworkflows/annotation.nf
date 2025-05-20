@@ -35,16 +35,16 @@ process bakta{
         tuple val(sample_id), file(fasta), file(de_dup_counts_table)
 
     output:
-    tuple path("*.embl")             , emit: embl
-    tuple path("*.faa")              , emit: faa
-    tuple path("*.ffn")              , emit: ffn
-    tuple path("*.fna")              , emit: fna
-    tuple path("*.gbff")             , emit: gbff
-    tuple path("*.gff3")             , emit: gff
-    tuple path("*.hypotheticals.tsv"), emit: hypotheticals_tsv
-    tuple path("*.hypotheticals.faa"), emit: hypotheticals_faa
-    tuple path("*.tsv")              , emit: tsv
-    tuple path("*.txt")              , emit: txt
+    path("*.embl")             , emit: embl
+    path("*.faa")              , emit: faa
+    path("*.ffn")              , emit: ffn
+    path("*.fna")              , emit: fna
+    path("*.gbff")             , emit: gbff
+    path("*.gff3")             , emit: gff
+    path("*.hypotheticals.tsv"), emit: hypotheticals_tsv
+    path("*.hypotheticals.faa"), emit: hypotheticals_faa
+    path("*.tsv")              , emit: tsv
+    path("*.txt")              , emit: txt
     path "versions.yml"              , emit: versions
 
 
