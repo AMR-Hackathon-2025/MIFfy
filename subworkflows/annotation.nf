@@ -45,7 +45,6 @@ process bakta{
     path("*.hypotheticals.faa"), emit: hypotheticals_faa
     path("*.tsv")              , emit: tsv
     path("*.txt")              , emit: txt
-    path "versions.yml"              , emit: versions
 
 
     script:
