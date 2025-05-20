@@ -65,7 +65,7 @@ process blast {
         tuple val(sample_id), file(fasta), file(de_dup_counts_table)
 
     output:
-        tuple va(sample_id), path("${sample_id}.deduplicated.hits.tsv")
+        tuple val(sample_id), path("${sample_id}.deduplicated.hits.tsv")
 
     script:
     """
