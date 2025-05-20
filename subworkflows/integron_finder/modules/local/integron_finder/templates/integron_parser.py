@@ -29,7 +29,7 @@ with open("${integrons}", "r") as f:
             integron_dict[row["ID_replicon"]]["end"] = int(row["pos_end"])
 
 out_records = []
-with open("${fasta}", "r") as fasta_fh:
+with open("${fasta}", "rt") as fasta_fh:
     fasta_it = SeqIO.parse(fasta_fh, "fasta")
     for record in fasta_it:
         if integron_dict.get(record.id):
@@ -46,6 +46,8 @@ for header, seq_slice in out_records:
 
 
 with open("output.tsv", "a") as f:
-    print("chrom\tstart\tend\tintegron_id", file=f)
+    print("chrom\\tstart\\tend\\tintegron_id", file=f)
     for chrom, data in integron_dict.items():
-        print(f"{chrom}\t{data['start']}\t{data['end']}\t{data['integron_id']}", file=f)
+        print(
+            f"{chrom}\\t{data['start']}\\t{data['end']}\\t{data['integron_id']}", file=f
+        )
