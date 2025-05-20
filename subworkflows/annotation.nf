@@ -9,7 +9,7 @@ process cluster_reads{
     label 'process_low'
     container 'community.wave.seqera.io/library/bio:1.8.0--1a14c5d84ae932e1'
 
-    publishDir "${params.outdir}/annotation/", mode: 'copy'
+    publishDir "${params.outdir}/annotation/${sample_id}", mode: 'copy'
 
     input:
         tuple val(sample_id), file(fasta)
@@ -27,7 +27,7 @@ process cluster_reads{
 process bakta{
     label 'process_high'
 
-    publishDir "${params.outdir}/annotation/", mode: 'copy'
+    publishDir "${params.outdir}/annotation/${sample_id}", mode: 'copy'
     
     container 'biocontainers/bakta:1.11.0--pyhdfd78af_0'
 
@@ -58,14 +58,14 @@ process bakta{
 process blast {
 
     label 'process_medium'
-    publishDir "${params.outdir}/annotation/", mode: 'copy'
+    publishDir "${params.outdir}/annotation/${sample_id}", mode: 'copy'
     container 'biocontainers/blast:2.16.0--h66d330f_5'
 
     input:
         tuple val(sample_id), file(fasta), file(de_dup_counts_table)
 
     output:
-        tuple val(sample_id), path("${sample_id}.deduplicated.hits.tsv")
+        tuple val(sample_id), path("${sample_id}.blastn_deduplicated_hits.tsv")
 
     script:
     """
