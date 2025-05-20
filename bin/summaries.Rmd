@@ -19,11 +19,12 @@ distinct.clusters <- nrow(distinct(contig.results, ReadID))
 MIFfy found `r distinct.clusters` unique integron(s) in the sample.
 
 ## Unique integrons
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE}
 contig.results %>% distinct(ReadID, .keep_all=TRUE) %>%
- mutate(integron_plot = str_c('![](', file.path(params$result_dir, "images", str_c(ReadID, ".png")), ')')) %>%
-  select(ReadID, integron_plot, AMR) %>%
+ mutate(integron_plot = paste0("<iframe src='",(file.path(params$result_dir, str_c(ReadID, ".html"))), "'></iframe>")) %>%
+  #select(ReadID, integron_plot, AMR) %>%
         knitr::kable()
+
 ```
 ## Unique cassettes
 
