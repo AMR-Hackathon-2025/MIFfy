@@ -91,7 +91,7 @@ process combine_bakta_and_blast {
         tuple val(unique_id), path("${unique_id}.bakta_blast_annotation_merge.tsv")
     script:
     """
-    Rscript annotation_merging.R ${bakta_tsv} ${blast_tsv} ${unique_id}.bakta_blast_annotation_merge.tsv
+    Rscript ${projectDir}/bin/annotation_merging.R ${bakta_tsv} ${blast_tsv} ${unique_id}.bakta_blast_annotation_merge.tsv
     """
 }
 
