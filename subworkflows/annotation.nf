@@ -72,7 +72,7 @@ process blast {
     blastn \\
         -db ${params.blast_database} \\
         -query ${fasta} \\
-        -out ${sample_id}.deduplicated.hits.tsv \\
+        -out ${sample_id}.blastn_deduplicated_hits.tsv \\
         -outfmt "6 qseqid sseqid pident length mismatch qstart qend sstart send evalue bitscore qseq" \\
         -max_target_seqs 1 \\
         -num_threads ${task.cpus}
