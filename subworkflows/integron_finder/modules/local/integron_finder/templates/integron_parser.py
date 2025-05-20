@@ -39,7 +39,7 @@ with SeqIO.parse("${fasta}", "fasta") as fasta_fh:
 
 for header, seq_slice in out_records:
     with open("output.fasta", "a") as f:
-        print(f">{header}", file=f)
+        print(f"{header}", file=f)
         print(seq_slice, file=f)
 
 
