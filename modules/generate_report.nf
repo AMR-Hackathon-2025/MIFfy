@@ -20,12 +20,13 @@ process generate_html {
     publishDir "${params.outdir}/report/${unique_id}", mode: 'copy'
 
     input:
-        tuple val(unique_id), path(read_tsv)
+        tuple val(unique_id), path("${read_tsv}.html"), path(read_tsv}), path(summary_rmd)
     output:
-        tuple val(unique_id), path("${read_tsv}.html")
+        tuple val(unique_id), path("miffy_summary.html")
     script:
     """
-    touch "${read_tsv}.html"
+    Rscript -e 'rmarkdown::render("${summary_rmd}", output_dir=getwd(), output_format = "html_document", output_file = "miffy_summary.html", params = list("result_dir" = "${params.outdir}", "result_file"="${read_tsv}"))'
+
     """
 
 }
