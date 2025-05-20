@@ -8,6 +8,8 @@ workflow run_miffy
     main:
         dehost(fastq_ch)
         assemble(dehost.out)
+
+        annotation(find_integrons.out)
     emit:
         assemble.out.fasta
 }
