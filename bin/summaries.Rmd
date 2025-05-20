@@ -5,13 +5,16 @@ params:
   result_file: ""
 ---
 ```{r echo=FALSE, message=FALSE}
+library(dplyr)
 library(knitr)
-library(tidyverse)
+library(magrittr)
+library(readr)
+library(stringr)
 ```
 ```{r echo=FALSE, message=FALSE}
 contig.results <- read_tsv(params$result_file)
 # we're assuming one integron per read
-distinct.clusters <- nrow(distinct(contig.results, ReadID)) # TODO name will likely change
+distinct.clusters <- nrow(distinct(contig.results, ReadID))
 ```
 MIFfy found `r distinct.clusters` unique integron(s) in the sample.
 
