@@ -17,6 +17,7 @@ if (length(args) != 3) {
 }
 
 
+
 # function to process Bakta hits
 read_IS_annotations <- function(path) {
   my.input <- read.csv(path, sep="\t", comment.char="#", check.names = F, header=F, col.names = c("Sequence Id","Type","Start","Stop","Strand","Locus Tag","Gene","Product","DbXrefs"))
@@ -42,8 +43,17 @@ create_search_hits <- function(bakta.path, blast.path, output.path) {
     group_by(qseqid) %>% mutate(count=n()) %>% arrange(bitscore) %>% distinct(qseqid, .keep_all = T) %>%
     select(qseqid, sseqid, length, attl_qseq)
   combined.data <- left_join(bakta.data, blast.data, by=c("Sequence Id"="qseqid"))
+  
+  combined.data <- combined.data %>%
+    group_by(`Sequence Id`, Type) %>%
+    summarise(count=n()) %>%
+    pivot_wider(names_from=Type, values_from=count, values_fill = 0) %>%
+    mutate(seq_gene = cds, seq_ncRNA=`ncRNA-region`) %>%
+    select(-c(`ncRNA-region`, cds)) %>%
+    right_join(combined.data)
   #return(bakta.data)
   #return(blast.data)
+  
   return(combined.data)
 }
 
