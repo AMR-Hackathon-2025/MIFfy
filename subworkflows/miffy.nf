@@ -10,7 +10,7 @@ workflow run_miffy {
     dehost(fastq_ch)
     assemble(dehost.out)
     INTEGRON_FINDER(assemble.out.fasta)
-    annotation(find_integrons.out.integrons)
+    annotation(INTEGRON_FINDER.out.integrons)
 
     emit:
     assemble.out.fasta
