@@ -1,7 +1,11 @@
 process assemble {
     label 'process_high'
 
-     container "community.wave.seqera.io/library/flye:2.9.5--d577924c8416ccd8"
+    container "community.wave.seqera.io/library/flye:2.9.5--d577924c8416ccd8"
+
+    publishDir "${params.outdir}/${unique_id}/assembly/", mode: 'copy', pattern: "*.gz"
+    publishDir "${params.outdir}/${unique_id}/assembly/", mode: 'copy', pattern: "*.log"
+
 
     input:
     tuple val(unique_id), path(reads)
