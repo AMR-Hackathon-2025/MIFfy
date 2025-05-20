@@ -4,12 +4,19 @@ process make_clinker_figures {
     publishDir "${params.outdir}/report/${unique_id}", mode: 'copy'
 
     input:
-        tuple val(unique_id), path(read_tsv)
+        tuple val(unique_id), path(read_tsv), path(read_fasta)
     output:
         tuple val(unique_id), path("${read_tsv}.html")
     script:
     """
-    touch "${read_tsv}.html"
+    ## Transform mify output to genbank format
+    Rscript longread_to_genbank.R -t ${read_tsv} -f ${read_fasta} -o ${read_fasta.simpleName}.gbk
+    
+    ## Generate colorcode for AMR class
+    Rscript gen_colourcode.R --input_file ${read_tsv} --gene_function_out ${read_fasta.simpleName}_gene_function.csv --colorcode_out ${read_fasta.simpleName}_colorcode.csv
+    
+    ## Plot schematic gene plot
+    clinker *.gbk --plot ./images/${read_fasta.simpleName}.html -gf ${read_fasta.simpleName}_gene_function.csv -cm ${read_fasta.simpleName}_colorcode.csv
     """
 
 }
