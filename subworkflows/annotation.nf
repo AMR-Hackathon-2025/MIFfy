@@ -63,7 +63,7 @@ process blast {
 
     input:
         tuple val(sample_id), file(fasta), file(de_dup_counts_table)
-        path(blast_database)
+        // path(blast_database)
 
     output:
         tuple val(sample_id), path("${sample_id}.deduplicated.hits.tsv")
@@ -71,7 +71,7 @@ process blast {
     script:
     """
     blastn \\
-        -db ${blast_database} \\
+        -db ${params.blast_database} \\
         -query ${fasta} \\
         -out ${sample_id}.deduplicated.hits.tsv \\
         -outfmt "6 qseqid sseqid pident length mismatch qstart qend sstart send evalue bitscore qseq" \\
@@ -89,8 +89,8 @@ workflow annotation {
     main:
         cluster_reads(fasta_ch)     
         bakta(cluster_reads.out)
-        ch_blast_db = params.blast_database ? file("${params.blast_database}") : []
-        blast(cluster_reads.out, ch_blast_db)
+        // ch_blast_db = params.blast_database ? file("${params.blast_database}") : []
+        blast(cluster_reads.out)
 
 
 
