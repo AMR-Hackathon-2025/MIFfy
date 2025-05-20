@@ -21,7 +21,7 @@ MIFfy found `r distinct.clusters` unique integron(s) in the sample.
 ## Unique integrons
 ```{r echo=FALSE}
 contig.results %>% distinct(ReadID, .keep_all=TRUE) %>%
- mutate(integron_plot = paste0("<iframe src='",(file.path(params$result_dir, str_c(ReadID, ".html"))), "'></iframe>")) %>%
+ mutate(integron_plot = paste0("<iframe src='",(file.path(params$result_dir, str_c(ReadID, ".html"))), "' height='200' width='500'></iframe>")) %>%
   select(ReadID, integron_plot, AMR) %>%
         knitr::kable()
 
