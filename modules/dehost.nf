@@ -6,19 +6,16 @@ process fetchHostileReference {
     container 'community.wave.seqera.io/library/hostile:2.0.0--a16bb8e6c792e0d0'
 
     conda 'bioconda::hostile=2.0.0'
-
-    input:
-    path store_dir
+    
+    storeDir "${params.store_dir}/hostile/"
 
     output:
-    path "hostile.ok"
+    path "${params.store_dir}/hostile/${params.hostile_database_name}"
 
     script:
     """
-    export HOSTILE_CACHE_DIR='${store_dir}/hostile'
-    hostile fetch --aligner bowtie2
-
-    touch hostile.ok
+    export HOSTILE_CACHE_DIR='${params.store_dir}/hostile'
+    hostile index fetch ${params.hostile_database_name} --minimap2
     """
 }
 
@@ -29,8 +26,6 @@ process runHostile {
 
     input:
     tuple val(unique_id), path(fastq)
-    path hostile_ok
-
 
     output:
     tuple val(unique_id), path("${fastq.baseName}.clean.fastq")
@@ -40,7 +35,7 @@ process runHostile {
     export HOSTILE_CACHE_DIR='${params.store_dir}/hostile/'
     hostile clean \
       --fastq1 ${fastq} \
-      --index human-t2t-hla.argos-bacteria-985_rs-viral-202401_ml-phage-202401 \
+      --index ${params.hostile_database_name} \
       -o - > ${fastq.baseName}.clean.fastq
     """
 }
@@ -50,8 +45,13 @@ workflow  dehost{
         fastq_ch
     main:
         if (!params.skip_host_filter) {
-            fetchHostileReference(params.store_dir)
-            runHostile(fastq_ch, fetchHostileReference.out)
+            /*input_database = file("${params.store_dir}/hostile/${params.hostile_database_name}")
+            if (input_database.isEmpty()) {
+                database = fetchHostileReference()
+            } else {
+                database = Channel.of(input_database)
+            }*/
+            runHostile(fastq_ch)
             filtered_reads_ch = runHostile.out
 
         } else {
