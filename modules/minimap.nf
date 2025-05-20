@@ -6,18 +6,21 @@ process minimap2_ref {
     container "community.wave.seqera.io/library/minimap2:2.28--78db3d0b6e5cb797"
 
     input:
-        tuple val(unique_id), val(fastq)
-        path refs
+    tuple val(unique_id), val(fastq)
+    path refs
+
     output:
-        tuple val(unique_id), path("${unique_id}.mmp.sam")
+    tuple val(unique_id), path("${unique_id}.mmp.sam")
+
     script:
-        preset = ""
-        if ( params.read_type == "illumina") {
-            preset = "sr"
-        } else {
-            preset = "map-ont"
-        }
-        """
+    preset = ""
+    if (params.read_type == "illumina") {
+        preset = "sr"
+    }
+    else {
+        preset = "map-ont"
+    }
+    """
         minimap2 -ax ${preset} ${refs} ${fastq} --secondary=no -N 1 -t ${task.cpus} --sam-hit-only > "${unique_id}.mmp.sam"
         """
 }
@@ -35,15 +38,14 @@ process evaluate_minimap2_output {
     """
     touch "minimap.tsv"
     """
-
 }
 
-workflow  get_minimap_tsv{
+workflow get_minimap_tsv {
     take:
     fastq_ch
 
     main:
-    refs = file("$projectDir/${params.minimap_refs}", type: "file", checkIfExists:true)
+    refs = file("${params.minimap_refs}", type: "file", checkIfExists: true)
     minimap2_ref(fastq_ch, refs)
     evaluate_minimap2_output(minimap2_ref.out)
 
