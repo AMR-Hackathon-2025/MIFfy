@@ -2,6 +2,7 @@
 
 import csv
 from Bio import SeqIO
+import gzip
 
 # {chrom_name: {integron_id:, start:, end:}}
 integron_dict = {}
@@ -29,7 +30,7 @@ with open("${integrons}", "r") as f:
             integron_dict[row["ID_replicon"]]["end"] = int(row["pos_end"])
 
 out_records = []
-with open("${fasta}", "rt") as fasta_fh:
+with gzip.open("${fasta}", "rt") as fasta_fh:
     fasta_it = SeqIO.parse(fasta_fh, "fasta")
     for record in fasta_it:
         if integron_dict.get(record.id):
