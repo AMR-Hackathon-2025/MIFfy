@@ -11,9 +11,13 @@ def load_tsv(tsv_file):
     header = None
     with open(tsv_file, newline='', delimiter='\t') as tsvfile:
         reader = tsv.DictReader(tsvfile)
+        header = reader.fieldnames()
+        header.erase("Sequence Id")
         for row in reader:
-            if "Cassette_ID" in row:
-                row["ReadID_CassetteID_Combined"] = row["ReadID"] + "_" + row["Cassette_ID"]
+            if "sseqid" in row:
+                header.erase("Sequence Id")
+                row["ReadID_CassetteID_Combined"] = row["Sequence Id"] + "_" + row["Cassette_ID"]
+                row["ReadID"] = row["Sequence Id"]
             elif "Reference" in row:
                 row["ReadID_CassetteID_Combined"] = row["ReadID"] + "_" + row["Reference"]
             else:
