@@ -31,7 +31,7 @@ with open("${integrons}", "r") as f:
 out_records = []
 with open("${fasta}", "r") as fasta_fh:
     fasta_it = SeqIO.parse(fasta_fh, "fasta")
-    for record in fasta_fh:
+    for record in fasta_it:
         if integron_dict.get(record.id):
             header = f">{record.id}_{integron_dict[record.id]['start']}_{integron_dict[record.id]['end']}"
             slice = record.seq[
