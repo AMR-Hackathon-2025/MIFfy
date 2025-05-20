@@ -6,7 +6,7 @@ process fetchHostileReference {
     container 'community.wave.seqera.io/library/hostile:2.0.0--a16bb8e6c792e0d0'
 
     conda 'bioconda::hostile=2.0.0'
-    
+
     storeDir "${params.store_dir}/hostile/"
 
     output:
@@ -26,13 +26,14 @@ process runHostile {
 
     input:
     tuple val(unique_id), path(fastq)
+    path store_dir
 
     output:
     tuple val(unique_id), path("${fastq.baseName}.clean.fastq")
 
     script:
     """
-    export HOSTILE_CACHE_DIR='${params.store_dir}/hostile/'
+    export HOSTILE_CACHE_DIR='${store_dir}/hostile/'
     hostile clean \
       --fastq1 ${fastq} \
       --index ${params.hostile_database_name} \
@@ -40,23 +41,26 @@ process runHostile {
     """
 }
 
-workflow  dehost{
+workflow dehost {
     take:
-        fastq_ch
+    fastq_ch
+
     main:
-        if (!params.skip_host_filter) {
-            /*input_database = file("${params.store_dir}/hostile/${params.hostile_database_name}")
+    if (!params.skip_host_filter) {
+        /*input_database = file("${params.store_dir}/hostile/${params.hostile_database_name}")
             if (input_database.isEmpty()) {
                 database = fetchHostileReference()
             } else {
                 database = Channel.of(input_database)
             }*/
-            runHostile(fastq_ch)
-            filtered_reads_ch = runHostile.out
+        ch_store_dir = file("${params.store_dir}", checkIfExists: true)
+        runHostile(fastq_ch, ch_store_dir)
+        filtered_reads_ch = runHostile.out
+    }
+    else {
+        filtered_reads_ch = fastq_ch
+    }
 
-        } else {
-            filtered_reads_ch = fastq_ch
-        }
     emit:
-        clean = filtered_reads_ch
+    clean = filtered_reads_ch
 }

@@ -12,7 +12,7 @@ workflow INTEGRON_FINDER {
 
     INTEGRONFINDER(contigs)
 
-    ch_parse_input = INTEGRONFINDER.out.integrons.join(ch_contigs)
+    ch_parse_input = INTEGRONFINDER.out.integrons.join(contigs)
 
     PARSE_INTEGRON_RESULTS(ch_parse_input)
 
