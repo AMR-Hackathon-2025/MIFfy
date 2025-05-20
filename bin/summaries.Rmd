@@ -1,0 +1,36 @@
+---
+title: "MIFfy summary"
+params:
+  result_dir: ""
+  result_file: ""
+---
+```{r echo=FALSE, message=FALSE}
+library(dplyr)
+library(knitr)
+library(magrittr)
+library(readr)
+library(stringr)
+```
+```{r echo=FALSE, message=FALSE}
+contig.results <- read_tsv(params$result_file)
+# we're assuming one integron per read
+distinct.clusters <- nrow(distinct(contig.results, ReadID))
+```
+MIFfy found `r distinct.clusters` unique integron(s) in the sample.
+
+## Unique integrons
+```{r echo=FALSE}
+contig.results %>% distinct(ReadID, .keep_all=TRUE) %>%
+ mutate(integron_plot = paste0("<iframe src='",(file.path(params$result_dir, str_c(ReadID, ".html"))), "' height='200' width='500'></iframe>")) %>%
+  select(ReadID, integron_plot, AMR) %>%
+        knitr::kable()
+
+```
+## Unique cassettes
+
+```{r echo=FALSE, message=FALSE}
+contig.results %>% add_count(Cassete_ID, name="times_seen") %>%
+  distinct(Cassete_ID, .keep_all=TRUE) %>%
+  select(Cassete_ID, times_seen, AMR) %>%
+        knitr::kable()
+```
