@@ -63,7 +63,6 @@ process blast {
 
     input:
         tuple val(sample_id), file(fasta), file(de_dup_counts_table)
-        // path(blast_database)
 
     output:
         tuple val(sample_id), path("${sample_id}.deduplicated.hits.tsv")
@@ -89,7 +88,6 @@ workflow annotation {
     main:
         cluster_reads(fasta_ch)     
         bakta(cluster_reads.out)
-        // ch_blast_db = params.blast_database ? file("${params.blast_database}") : []
         blast(cluster_reads.out)
 
 
