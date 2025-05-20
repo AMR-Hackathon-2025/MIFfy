@@ -8,7 +8,7 @@ args <- commandArgs(trailingOnly = TRUE)
 if (length(args) > 3) {
   stop("Too many arguments. Please specify *only* input directory, contig result tsv and desired outfile.")
 }
-if (length(args) < 2) {
+if (length(args) < 3) {
   stop("Missing arguments. Please specify input directory, contig result tsv and desired outfile.")
 }
 
