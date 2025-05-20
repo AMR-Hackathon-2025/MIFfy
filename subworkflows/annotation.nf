@@ -78,6 +78,7 @@ process blast {
     """
 
 }
+
 workflow annotation {
 
     take:
