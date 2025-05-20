@@ -95,6 +95,25 @@ process combine_bakta_and_blast {
     """
 }
 
+process abricate {
+    label 'process_medium'
+    container 'community.wave.seqera.io/library/abricate:1.0.1--0fd3388e9b365eeb'
+    publishDir "${params.outdir}/annotation/${sample_id}", mode: 'copy'
+
+    input:
+        tuple val(sample_id), file(fasta), file(de_dup_counts_table)
+
+    output:
+        tuple val(sample_id), path("${sample_id}.abricate.tsv")
+
+    script:
+    """
+    abricate ${fasta} > ${sample_id}.abricate.tsv
+    """
+
+}
+
+
 workflow annotation {
 
     take:
@@ -106,6 +125,7 @@ workflow annotation {
         blast(cluster_reads.out)
         bakta.out.tsv.combine(blast.out, by: 0).set{bakta_and_blast_ch}
         combine_bakta_and_blast(bakta_and_blast_ch)
+        abricate(fasta_ch)
     emit:
         tsv = combine_bakta_and_blast.out
 }
