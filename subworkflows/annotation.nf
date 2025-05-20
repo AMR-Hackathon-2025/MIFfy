@@ -25,7 +25,7 @@ process cluster_reads{
 }
 
 process bakta{
-    label 'process_low'
+    label 'process_medium'
 
     publishDir "${params.outdir}/annotation/", mode: 'copy'
     
@@ -36,7 +36,7 @@ process bakta{
 
     script:
     """
-    bakta --db ${params.bakta_database} --skip-plot --keep-contig-headers ${fasta}
+    bakta --db ${params.bakta_database} --threads $task.cpus --skip-plot --keep-contig-headers ${fasta}
     """
 }
 
