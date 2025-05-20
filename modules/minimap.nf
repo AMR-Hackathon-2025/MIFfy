@@ -48,5 +48,5 @@ workflow  get_minimap_tsv{
     evaluate_minimap2_output(minimap2_ref.out)
 
     emit:
-    evaluate_minimap2_output.out
+    tsv = evaluate_minimap2_output.out
 }

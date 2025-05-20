@@ -40,7 +40,7 @@ def compare_contents(content1, content2):
             content2[id] = entry
     return content2
 
-def combine_tsv(tsv1, tsv2):
+def combine_tsv(tsv1, tsv2, prefix):
     header1, content1 = load_tsv(tsv1)
     header1, content2 = load_tsv(tsv2)
 
@@ -54,7 +54,7 @@ def combine_tsv(tsv1, tsv2):
     # split by read_id
     read_ids = set([row["ReadID"] for row in combined_content])
     for read_id in read_ids:
-        with open(f"{read_id}.tsv", "r") as outfile:
+        with open(f"{prefix}_{read_id}.tsv", "r") as outfile:
             writer = csv.DictWriter(csvfile, fieldnames=combined_headers, delimiter="\t")
             writer.writeheader()
             for row in combined_content:
@@ -79,6 +79,12 @@ def main():
         required=True,
         help="TSV output from minimap2 pipeline",
     )
+    parser.add_argument(
+        "--prefix",
+        dest="prefix",
+        required=True,
+        help="Prefix for output file",
+    )
 
     args = parser.parse_args()
 
@@ -87,7 +93,7 @@ def main():
     time = now.strftime("%m/%d/%Y, %H:%M:%S")
     sys.stderr.write("PROGRAM START TIME: " + time + "\n")
 
-    combine_tsv(args.bakta_tsv, args.minimap_tsv)
+    combine_tsv(args.bakta_tsv, args.minimap_tsv, args.prefix)
 
     now = datetime.now()
     time = now.strftime("%m/%d/%Y, %H:%M:%S")
