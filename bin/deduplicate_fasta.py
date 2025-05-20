@@ -1,9 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from collections import defaultdict
 from Bio import SeqIO
 import argparse
 import os
+
 
 def valid_directory(path):
     if not os.path.isdir(path):
@@ -13,28 +14,41 @@ def valid_directory(path):
 
 def commandline():
     parser = argparse.ArgumentParser(
-        description='De-duplicate fasta sequence and output a table including count of duplicated sequences.'
+        description="De-duplicate fasta sequence and output a table including count of duplicated sequences."
     )
     parser.add_argument(
-        '--fasta',
-        '-f',
+        "--fasta",
+        "-f",
         required=True,
-        help='FASTA sequence to de-duplicate.',
+        help="FASTA sequence to de-duplicate.",
     )
     parser.add_argument(
-        '--output_dir',
-        '-o',
-        default = os.getcwd(),
-        help='Output directory for de-duplicated sequence.',
+        "--output_dir",
+        "-o",
+        default=os.getcwd(),
+        help="Output directory for de-duplicated sequence.",
         type=valid_directory,
         required=False,
     )
     args = parser.parse_args()
     return args
 
+
 def deduplicate_fasta(input_fasta, output_dir):
-    output_fasta = os.path.join(output_dir, str(str(os.path.basename(input_fasta).split('.')[0])+str('.deduplicated.fasta')))
-    summary_table = os.path.join(output_dir,  str(str(os.path.basename(input_fasta).split('.')[0])+str('.duplication_counts.tsv')))
+    output_fasta = os.path.join(
+        output_dir,
+        str(
+            str(os.path.basename(input_fasta).split(".")[0])
+            + str(".deduplicated.fasta")
+        ),
+    )
+    summary_table = os.path.join(
+        output_dir,
+        str(
+            str(os.path.basename(input_fasta).split(".")[0])
+            + str(".duplication_counts.tsv")
+        ),
+    )
 
     seq_counts = defaultdict(list)  # sequence -> list of headers
 
@@ -50,17 +64,19 @@ def deduplicate_fasta(input_fasta, output_dir):
             rep_header = headers[0]
             count = len(headers)
             SeqIO.write(
-                SeqIO.SeqRecord(seq=sequence, id=rep_header, description=f"deduplicated_{count}x"),
+                SeqIO.SeqRecord(
+                    seq=sequence, id=rep_header, description=f"deduplicated_{count}x"
+                ),
                 out_fasta,
-                "fasta"
+                "fasta",
             )
             out_table.write(f"{rep_header}\t{count}\t{','.join(headers)}\n")
-
 
 
 def main():
     args = commandline()
     deduplicate_fasta(args.fasta, args.output_dir)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
