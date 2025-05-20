@@ -1,0 +1,35 @@
+LOCUS       read1     733 bp    DNA     linear       19-May-2025
+DEFINITION  Long read GenBank generated from annotation fragments.
+ACCESSION   read1_001
+VERSION     read1_001.1
+KEYWORDS    .
+SOURCE       E. coli 
+  ORGANISM   E. coli 
+FEATURES             Location/Qualifiers
+     CDS             1..2753
+                     /gene="pen1"
+                     /locus_tag="BDW43DRAFT_77391"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_031900578.1"
+                     /codon_start=1
+                     /translation="MVVVLERINMAIASSIGLVAEAIHRHKTPERPIESENDIARYPV"
+                     /note="AMR class: PEN"
+     CDS             5444..6100
+                     /gene="gly1"
+                     /locus_tag="BDW43DRAFT_77392"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_031900578.2"
+                     /codon_start=2
+                     /translation="MVVVLERINMAIASSIGLVAEAIHRHKTPERPIESENDIARYPV"
+                     /note="AMR class: PEN"
+     CDS             10254..12500
+                     /gene="gur2"
+                     /locus_tag="BDW43DRAFT_77393"
+                     /product="uncharacterized protein"
+                     /protein_id="XP_031900578.3"
+                     /codon_start=3
+                     /translation="MVVVLERINMAIASSIGLVAEAIHRHKTPERPIESENDIARYPV"
+                     /note="AMR class: PEN"
+ORIGIN
+        1 atgcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagcgtacgttagctagcgtacgtagctagc
+//
